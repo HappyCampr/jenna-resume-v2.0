@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jenna Saunders · Chocolate Sales Dashboard</title>
+  <meta name="description" content="Interactive data dashboard example built by Jenna Saunders using Chart.js and CSV parsing.">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .dash-container { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+    .dash-header { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
+    .dash-title { font-size: clamp(1.4rem, 1.8vw, 2rem); color: var(--text-strong, #043a91); margin: 0; }
+    .filters { display:flex; gap:.5rem; align-items:center; flex-wrap:wrap; }
+    .filters select, .filters input[type="date"], .filters input[type="file"], .filters input[type="text"] { padding:.5rem .6rem; border:1px solid var(--border,#e2e8f0); border-radius:10px; background:var(--card,#fff); }
+    .kpi-grid { display:grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: .75rem; margin: 1rem 0; }
+    .kpi { background: var(--card,#fff); border:1px solid var(--border,#e2e8f0); border-radius:16px; padding: .9rem; box-shadow: var(--shadow, 0 1px 3px rgba(0,0,0,.06)); }
+    .kpi h4 { margin:.1rem 0 .35rem; font-size:.9rem; color:#555; font-weight:600; }
+    .kpi .val { font-size:1.2rem; font-weight:700; color: var(--text-strong,#043a91); }
+    .kpi .sub{ font-size:.9rem; color:#666; margin-top:.15rem;}
+    .grid-2 { display:grid; grid-template-columns:1.2fr .8fr; gap: .75rem; }
+    .card { background: var(--card,#fff); border:1px solid var(--border,#e2e8f0); border-radius:16px; padding: .9rem; }
+    .card h3 { margin:0 0 .5rem; font-size:1rem; }
+    .footer-note { margin-top: 1rem; font-size:.85rem; color:#666; }
+    .date-range-labels{font-size:.9rem; color: var(--text,#222); opacity:.85; }
+    #dateSlider .noUi-handle{ box-shadow:none; border:1px solid var(--border,#e2e8f0); }
+    #dateSlider .noUi-connect{ background: linear-gradient(90deg,#0073e6,#b51963,#5ba300); }
+    @media (max-width: 900px){ .grid-2{ grid-template-columns:1fr; } .kpi-grid{ grid-template-columns: repeat(2,minmax(0,1fr)); } }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/nouislider@15.7.1/dist/nouislider.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="./index.html" aria-label="Home">Jenna<span> Saunders</span></a>
+      <div class="nav-links">
+        <a href="./index.html#skills" class="nav-link">Skills</a>
+        <a href="./index.html#projects" class="nav-link">Projects</a>
+        <a href="./index.html#experience" class="nav-link">Experience</a>
+        <a href="./index.html#education" class="nav-link">Education</a>
+        <a href="./dashboard.html" class="nav-link active">Dashboard</a>
+      </div>
+      <div class="nav-actions">
+        <a class="btn" href="./resume_modern_fixed2.pdf" target="_blank" rel="noopener">Download PDF</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="dash-container">
+    <div class="dash-header">
+      <h1 class="dash-title">Chocolate Sales — Interactive Dashboard</h1>
+      <div class="filters">
+        <label>Data:</label>
+        <input id="fileInput" type="file" accept=".csv" title="Upload CSV">
+        <button id="loadLocal" class="btn">Load sample</button>
+        <label>Product:</label>
+        <select id="productFilter"><option value="">All</option></select>
+        <label>Region:</label>
+        <select id="regionFilter"><option value="">All</option></select>
+        <label>Location:</label>
+        <select id="locationFilter"><option value="">All</option></select>
+        <label>From:</label><input id="fromDate" type="date">
+        <label>To:</label><input id="toDate" type="date">
+        <button id="clearFilters" class="btn-ghost">Clear</button>
+      </div>
+      <div id="dateSlider" style="margin: .5rem 0 0;"></div>
+      <div class="date-range-labels"><strong>Date:</strong> <span id="rangeFrom">—</span> to <span id="rangeTo">—</span></div>
+    </div>
+
+    <section class="kpi-grid" aria-label="Key metrics">
+      <div class="kpi"><h4>Total Revenue</h4><div class="val" id="kpiRevenue">$0</div></div>
+      <div class="kpi"><h4>Total Units</h4><div class="val" id="kpiUnits">0</div></div>
+      <div class="kpi"><h4>Avg Order Value</h4><div class="val" id="kpiAOV">$0</div></div>
+      <div class="kpi"><h4>Orders</h4><div class="val" id="kpiOrders">0</div></div>
+    </section>
+
+    <section id="callouts" class="kpi-grid" aria-label="Key product callouts">
+      <div class="kpi">
+        <h4>Highest Avg Revenue/Box</h4>
+        <div class="val"><span id="topAvgProduct">—</span></div>
+        <div class="sub" id="topAvgValue">—</div>
+      </div>
+      <div class="kpi">
+        <h4>Lowest Avg Revenue/Box</h4>
+        <div class="val"><span id="lowAvgProduct">—</span></div>
+        <div class="sub" id="lowAvgValue">—</div>
+      </div>
+      <div class="kpi">
+        <h4>Highest Total Revenue</h4>
+        <div class="val"><span id="topRevProduct">—</span></div>
+        <div class="sub" id="topRevValue">—</div>
+      </div>
+      <div class="kpi">
+        <h4>Lowest Total Revenue</h4>
+        <div class="val"><span id="lowRevProduct">—</span></div>
+        <div class="sub" id="lowRevValue">—</div>
+      </div>
+    </section>
+
+    <section id="repCallouts" class="kpi-grid" aria-label="Sales rep callouts">
+      <div class="kpi">
+        <h4>Top Sales Rep</h4>
+        <div class="val"><span id="topRepName">—</span></div>
+        <div class="sub" id="topRepValue">—</div>
+      </div>
+      <div class="kpi">
+        <h4>Lowest Sales Rep</h4>
+        <div class="val"><span id="lowRepName">—</span></div>
+        <div class="sub" id="lowRepValue">—</div>
+      </div>
+    </section>
+
+    <section class="card" id="aiSummaries" aria-label="AI summaries and insights" style="margin:1rem 0;">
+      <h3 style="display:flex;align-items:center;gap:.5rem;margin-top:0;">🤖 AI Summary & Insights</h3>
+      <div style="display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; margin-bottom:.5rem;">
+        <label>Provider:</label>
+        <select id="aiProvider">
+          <option value="local" selected>Local (no key)</option>
+          <option value="hf">Hugging Face API (flan-t5-large)</option>
+          <option value="space">Hugging Face Space (no key)</option>
+        </select>
+        <label>API Key:</label>
+        <input id="aiKey" type="password" placeholder="HF API key (only for API option)" style="flex:1; min-width:220px; padding:.45rem .6rem; border:1px solid var(--border,#e2e8f0); border-radius:10px;">
+        <label>Space URL:</label>
+        <input id="aiSpaceUrl" type="text" placeholder="https://huggingface.co/spaces/yourname/summary" style="flex:1; min-width:260px; padding:.45rem .6rem; border:1px solid var(--border,#e2e8f0); border-radius:10px;">
+        <label style="display:flex;align-items:center;gap:.35rem;"><input id="autoSummary" type="checkbox" checked> Auto‑update</label>
+        <button id="genSummary" class="btn">Summaries</button>
+        <button id="copySummary" class="btn-ghost">Copy</button>
+      </div>
+      <textarea id="aiOutput" rows="6" placeholder="Click Summaries to generate a short summary and insights about the filtered data…" style="width:100%; padding:.7rem; border:1px solid var(--border,#e2e8f0); border-radius:12px;"></textarea>
+      <p class="footer-note" data-local-hint>Default mode “Local (no key)” generates a concise on-page summary from your KPIs & callouts. Switch to Hugging Face API or Space for LLM-generated prose.</p>
+      <p class="footer-note">For production, avoid exposing API keys on static sites. Use a serverless proxy or a public Hugging Face Space you control.</p>
+    </section>
+
+    <section class="grid-2">
+      <div class="card">
+        <h3>Revenue Over Time</h3>
+        <canvas id="lineRevenue"></canvas>
+      </div>
+      <div class="card">
+        <h3>Top Products</h3>
+        <canvas id="barProducts"></canvas>
+      </div>
+      <div class="card">
+        <h3>Revenue by Region</h3>
+        <canvas id="donutRegion"></canvas>
+      </div>
+      <div class="card">
+        <h3>Orders by Channel</h3>
+        <canvas id="barChannel"></canvas>
+      </div>
+    </section>
+
+    <section class="grid-2">
+      <div class="card">
+        <h3>Sales by Day of Week</h3>
+        <canvas id="barWeekday"></canvas>
+      </div>
+      <div class="card">
+        <h3>Monthly Seasonality</h3>
+        <canvas id="lineMonthly"></canvas>
+      </div>
+      <div class="card">
+        <h3>Cumulative Revenue</h3>
+        <canvas id="lineCumulative"></canvas>
+      </div>
+      <div class="card">
+        <h3>Top 5 Sales Reps (Revenue)</h3>
+        <canvas id="barReps"></canvas>
+      </div>
+    </section>
+
+    <p class="footer-note">Tip: Click a legend item to toggle a series. Upload your own CSV (same columns) or click “Load sample” to use <code>data/chocolate_sales.csv</code>.</p>
+  </main>
+
+  <script src="./dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,1201 @@
+Date,Product,Region,Location,Channel,Quantity,Unit Price,Revenue,SalesRep
+2021-01-01,Dark Bar 70%,Midwest,Milwaukee,Wholesale,2,4.37,8.97,Avery Lee
+2021-01-01,Truffle Assortment,West,San Diego,Online,2,8.66,17.98,Avery Lee
+2021-01-01,Hazelnut Praline,West,Seattle,Retail,6,5.77,34.49,Jordan Kim
+2021-01-02,Sea Salt Caramel,Midwest,Chicago,Wholesale,3,5.45,16.93,Jamie Rivera
+2021-01-02,Hazelnut Praline,Midwest,Chicago,Wholesale,4,7.09,29.14,Morgan Chen
+2021-01-02,Hazelnut Praline,Midwest,Columbus,Retail,3,6.35,18.79,Taylor Brooks
+2021-01-03,Truffle Assortment,South,Atlanta,Online,6,10.76,66.62,Jordan Kim
+2021-01-03,Dark Bar 70%,South,Houston,Online,2,4.13,8.55,Jordan Kim
+2021-01-03,Dark Bar 70%,Midwest,Detroit,Online,3,3.95,11.82,Morgan Chen
+2021-01-04,Almond Crunch,Midwest,Columbus,Retail,3,4.22,12.91,Jordan Kim
+2021-01-04,Truffle Assortment,West,Los Angeles,Online,8,10.72,85.57,Casey Diaz
+2021-01-04,Hazelnut Praline,West,Phoenix,Wholesale,1,5.31,5.42,Taylor Brooks
+2021-01-04,Sea Salt Caramel,South,Atlanta,Online,3,6.01,18.4,Jordan Kim
+2021-01-05,Dark Bar 70%,South,Dallas,Online,3,4.26,13.3,Casey Diaz
+2021-01-05,Almond Crunch,South,Miami,Online,4,5.93,23.39,Casey Diaz
+2021-01-05,Truffle Assortment,West,Seattle,Online,1,14.17,14.38,Morgan Chen
+2021-01-06,Almond Crunch,Northeast,Providence,Online,3,5.89,17.95,Jamie Rivera
+2021-01-06,Sea Salt Caramel,Midwest,Milwaukee,Retail,4,5.97,24.53,Jordan Kim
+2021-01-06,Hazelnut Praline,West,Seattle,Wholesale,8,7.02,58.89,Avery Lee
+2021-01-07,Dark Bar 70%,West,Los Angeles,Online,2,4.83,9.61,Jamie Rivera
+2021-01-07,Dark Bar 70%,West,Los Angeles,Online,1,4.67,4.76,Jamie Rivera
+2021-01-07,Hazelnut Praline,South,Houston,Online,3,5.77,17.07,Riley Patel
+2021-01-07,Sea Salt Caramel,West,Seattle,Online,5,5.65,29.08,Taylor Brooks
+2021-01-08,Milk Bar,South,Charlotte,Wholesale,2,4.04,8.37,Casey Diaz
+2021-01-08,Milk Bar,Midwest,Minneapolis,Wholesale,3,3.93,12.35,Avery Lee
+2021-01-08,Truffle Assortment,West,Seattle,Online,3,11.9,35.6,Taylor Brooks
+2021-01-09,Milk Bar,West,Las Vegas,Retail,2,4.22,8.69,Morgan Chen
+2021-01-09,Almond Crunch,West,San Diego,Online,1,4.78,4.92,Taylor Brooks
+2021-01-09,Milk Bar,West,Seattle,Retail,3,3.93,12.06,Jordan Kim
+2021-01-09,Hazelnut Praline,South,Dallas,Online,2,5.56,11.16,Jamie Rivera
+2021-01-09,Milk Bar,South,Houston,Retail,5,3.49,17.97,Avery Lee
+2021-01-09,Milk Bar,Northeast,Providence,Retail,2,4.05,7.97,Jordan Kim
+2021-01-10,Truffle Assortment,Midwest,Detroit,Online,2,13.34,27.04,Jamie Rivera
+2021-01-10,Sea Salt Caramel,Midwest,Minneapolis,Online,2,6.55,13.57,Jordan Kim
+2021-01-11,Dark Bar 70%,Midwest,Detroit,Retail,1,3.87,3.8,Taylor Brooks
+2021-01-11,Almond Crunch,Midwest,Milwaukee,Online,2,5.2,10.87,Avery Lee
+2021-01-12,Truffle Assortment,Northeast,Philadelphia,Retail,3,13.08,40.07,Morgan Chen
+2021-01-12,Almond Crunch,Northeast,New York,Online,2,5.15,10.33,Jamie Rivera
+2021-01-12,Sea Salt Caramel,West,San Diego,Online,2,5.13,10.59,Jordan Kim
+2021-01-12,Milk Bar,West,Las Vegas,Online,1,4.0,4.0,Avery Lee
+2021-01-13,Sea Salt Caramel,West,Phoenix,Retail,3,5.4,16.2,Jamie Rivera
+2021-01-13,Sea Salt Caramel,Midwest,Columbus,Online,4,5.22,21.13,Morgan Chen
+2021-01-14,Dark Bar 70%,West,Seattle,Online,1,4.42,4.58,Jordan Kim
+2021-01-14,Milk Bar,South,Atlanta,Online,1,3.78,3.93,Taylor Brooks
+2021-01-15,Almond Crunch,Midwest,Chicago,Wholesale,3,4.84,15.19,Avery Lee
+2021-01-15,Milk Bar,Northeast,Providence,Online,4,4.23,17.04,Avery Lee
+2021-01-15,Milk Bar,West,Seattle,Retail,1,3.81,3.9,Jordan Kim
+2021-01-16,Sea Salt Caramel,Northeast,Providence,Online,4,5.52,22.26,Casey Diaz
+2021-01-16,Truffle Assortment,Midwest,Detroit,Retail,2,10.09,20.47,Jordan Kim
+2021-01-16,Sea Salt Caramel,West,San Diego,Retail,3,5.58,17.32,Morgan Chen
+2021-01-17,Truffle Assortment,Northeast,New York,Online,5,13.23,68.18,Casey Diaz
+2021-01-17,Dark Bar 70%,Northeast,Philadelphia,Retail,2,4.48,9.36,Avery Lee
+2021-01-18,Milk Bar,Northeast,Providence,Online,1,4.49,4.65,Jordan Kim
+2021-01-18,Dark Bar 70%,West,San Diego,Retail,1,4.51,4.66,Jordan Kim
+2021-01-19,Almond Crunch,Northeast,Baltimore,Retail,1,5.29,5.33,Riley Patel
+2021-01-19,Milk Bar,Northeast,Providence,Retail,2,3.92,8.2,Avery Lee
+2021-01-19,Dark Bar 70%,Midwest,Chicago,Retail,4,4.48,18.18,Casey Diaz
+2021-01-19,Truffle Assortment,West,Las Vegas,Retail,8,13.07,106.88,Taylor Brooks
+2021-01-19,Hazelnut Praline,Northeast,Providence,Online,3,6.66,20.91,Jordan Kim
+2021-01-20,Dark Bar 70%,West,Los Angeles,Retail,5,5.12,25.8,Taylor Brooks
+2021-01-20,Hazelnut Praline,Midwest,Chicago,Wholesale,2,6.09,12.39,Jordan Kim
+2021-01-21,Milk Bar,South,Charlotte,Online,1,4.14,4.1,Taylor Brooks
+2021-01-21,Milk Bar,Northeast,Boston,Online,3,4.15,12.73,Avery Lee
+2021-01-21,Hazelnut Praline,Midwest,Minneapolis,Wholesale,5,5.71,28.17,Casey Diaz
+2021-01-22,Milk Bar,Midwest,Milwaukee,Retail,1,3.38,3.47,Riley Patel
+2021-01-22,Sea Salt Caramel,South,Charlotte,Wholesale,2,5.88,12.03,Avery Lee
+2021-01-23,Milk Bar,South,Houston,Online,6,4.33,26.14,Casey Diaz
+2021-01-24,Truffle Assortment,Midwest,Detroit,Online,4,10.36,42.65,Morgan Chen
+2021-01-24,Dark Bar 70%,South,Charlotte,Retail,3,4.59,14.33,Jordan Kim
+2021-01-25,Almond Crunch,Northeast,Providence,Retail,2,4.96,10.36,Jordan Kim
+2021-01-25,Milk Bar,West,San Diego,Retail,1,4.02,4.06,Morgan Chen
+2021-01-25,Sea Salt Caramel,Northeast,New York,Retail,4,6.19,25.23,Jamie Rivera
+2021-01-26,Dark Bar 70%,Midwest,Chicago,Online,2,4.5,9.15,Riley Patel
+2021-01-26,Truffle Assortment,South,Dallas,Online,6,13.06,77.98,Avery Lee
+2021-01-27,Milk Bar,Northeast,Boston,Wholesale,4,3.76,15.09,Riley Patel
+2021-01-27,Hazelnut Praline,South,Miami,Retail,3,5.75,17.95,Riley Patel
+2021-01-27,Truffle Assortment,Midwest,Minneapolis,Online,4,11.89,48.73,Taylor Brooks
+2021-01-28,Hazelnut Praline,West,Las Vegas,Online,4,5.9,23.28,Casey Diaz
+2021-01-28,Milk Bar,South,Atlanta,Retail,5,4.06,20.39,Casey Diaz
+2021-01-28,Sea Salt Caramel,South,Miami,Online,1,5.09,5.0,Jordan Kim
+2021-01-28,Milk Bar,Northeast,Baltimore,Online,3,3.83,11.86,Riley Patel
+2021-01-28,Almond Crunch,West,Phoenix,Wholesale,1,4.9,4.99,Riley Patel
+2021-01-29,Sea Salt Caramel,West,Seattle,Online,2,5.15,10.47,Morgan Chen
+2021-01-29,Sea Salt Caramel,West,San Diego,Retail,4,4.98,19.84,Riley Patel
+2021-01-30,Hazelnut Praline,West,Phoenix,Online,7,5.41,37.16,Avery Lee
+2021-01-30,Milk Bar,South,Atlanta,Wholesale,2,4.27,8.63,Casey Diaz
+2021-01-30,Hazelnut Praline,Midwest,Minneapolis,Wholesale,5,6.77,33.85,Jordan Kim
+2021-01-30,Sea Salt Caramel,Midwest,Detroit,Online,1,5.87,6.15,Jordan Kim
+2021-01-31,Hazelnut Praline,Northeast,Philadelphia,Wholesale,2,5.48,11.13,Taylor Brooks
+2021-01-31,Truffle Assortment,West,San Diego,Online,1,11.08,11.47,Morgan Chen
+2021-01-31,Sea Salt Caramel,West,Las Vegas,Retail,2,6.5,13.49,Avery Lee
+2021-01-31,Milk Bar,Midwest,Columbus,Online,4,4.29,17.92,Casey Diaz
+2021-01-31,Milk Bar,Northeast,Providence,Online,3,3.49,10.35,Avery Lee
+2021-02-01,Sea Salt Caramel,Northeast,Providence,Online,2,4.96,9.76,Taylor Brooks
+2021-02-01,Truffle Assortment,West,Los Angeles,Retail,2,13.13,26.22,Avery Lee
+2021-02-02,Milk Bar,Northeast,Philadelphia,Online,2,3.46,7.26,Jamie Rivera
+2021-02-03,Sea Salt Caramel,Midwest,Milwaukee,Online,3,5.45,16.17,Riley Patel
+2021-02-04,Dark Bar 70%,Northeast,Providence,Wholesale,2,4.89,9.68,Riley Patel
+2021-02-04,Truffle Assortment,Northeast,Philadelphia,Wholesale,9,13.91,128.88,Riley Patel
+2021-02-04,Truffle Assortment,South,Dallas,Online,1,12.22,12.25,Morgan Chen
+2021-02-04,Milk Bar,Midwest,Chicago,Retail,4,4.13,17.05,Avery Lee
+2021-02-05,Truffle Assortment,West,Phoenix,Online,1,11.89,12.28,Jordan Kim
+2021-02-05,Dark Bar 70%,West,San Diego,Online,1,4.27,4.21,Avery Lee
+2021-02-06,Dark Bar 70%,South,Charlotte,Retail,4,4.71,19.27,Avery Lee
+2021-02-08,Truffle Assortment,Northeast,Philadelphia,Retail,5,12.04,60.14,Riley Patel
+2021-02-08,Milk Bar,South,Houston,Retail,1,3.64,3.66,Morgan Chen
+2021-02-08,Truffle Assortment,South,Atlanta,Retail,2,12.06,23.88,Taylor Brooks
+2021-02-09,Dark Bar 70%,South,Houston,Retail,7,4.52,32.03,Jordan Kim
+2021-02-10,Truffle Assortment,West,San Diego,Online,1,10.94,11.28,Jamie Rivera
+2021-02-10,Truffle Assortment,South,Houston,Retail,1,11.6,11.38,Morgan Chen
+2021-02-10,Sea Salt Caramel,South,Miami,Online,3,5.18,15.88,Avery Lee
+2021-02-11,Almond Crunch,West,Los Angeles,Online,1,4.5,4.71,Taylor Brooks
+2021-02-11,Milk Bar,Midwest,Chicago,Online,7,4.29,31.45,Riley Patel
+2021-02-11,Almond Crunch,West,Phoenix,Wholesale,3,5.19,16.14,Avery Lee
+2021-02-11,Almond Crunch,South,Houston,Retail,1,5.5,5.54,Riley Patel
+2021-02-11,Milk Bar,West,San Diego,Wholesale,5,4.07,20.9,Jordan Kim
+2021-02-12,Milk Bar,West,San Diego,Online,2,4.04,8.11,Jordan Kim
+2021-02-12,Dark Bar 70%,Northeast,Philadelphia,Online,3,4.98,15.04,Riley Patel
+2021-02-12,Hazelnut Praline,Northeast,Philadelphia,Online,10,5.82,57.26,Casey Diaz
+2021-02-12,Dark Bar 70%,Northeast,New York,Online,1,5.15,5.16,Morgan Chen
+2021-02-12,Dark Bar 70%,Midwest,Detroit,Wholesale,1,4.28,4.37,Morgan Chen
+2021-02-12,Milk Bar,Northeast,Boston,Retail,4,3.73,15.01,Taylor Brooks
+2021-02-13,Almond Crunch,Northeast,Providence,Retail,1,5.23,5.38,Riley Patel
+2021-02-13,Almond Crunch,West,Seattle,Online,4,4.97,20.53,Riley Patel
+2021-02-13,Dark Bar 70%,Northeast,Baltimore,Retail,2,4.77,9.78,Jamie Rivera
+2021-02-13,Sea Salt Caramel,Midwest,Milwaukee,Wholesale,6,4.81,28.67,Casey Diaz
+2021-02-14,Sea Salt Caramel,West,Las Vegas,Online,2,5.03,10.05,Casey Diaz
+2021-02-14,Hazelnut Praline,South,Atlanta,Online,8,6.37,51.04,Taylor Brooks
+2021-02-14,Milk Bar,Northeast,Boston,Online,4,3.96,15.57,Jamie Rivera
+2021-02-14,Truffle Assortment,South,Dallas,Online,2,12.63,25.12,Casey Diaz
+2021-02-14,Milk Bar,West,San Diego,Retail,2,4.31,8.64,Morgan Chen
+2021-02-14,Milk Bar,Northeast,Providence,Wholesale,4,4.4,18.22,Taylor Brooks
+2021-02-14,Almond Crunch,Midwest,Columbus,Retail,7,4.87,34.15,Casey Diaz
+2021-02-14,Hazelnut Praline,South,Atlanta,Retail,1,5.95,6.14,Taylor Brooks
+2021-02-15,Truffle Assortment,West,Los Angeles,Retail,13,12.11,163.29,Casey Diaz
+2021-02-15,Dark Bar 70%,South,Miami,Retail,2,4.52,9.42,Jordan Kim
+2021-02-15,Hazelnut Praline,Midwest,Chicago,Retail,2,5.35,10.85,Morgan Chen
+2021-02-15,Almond Crunch,South,Dallas,Wholesale,6,4.59,28.29,Taylor Brooks
+2021-02-15,Hazelnut Praline,Northeast,Philadelphia,Retail,1,5.83,5.9,Riley Patel
+2021-02-15,Dark Bar 70%,Midwest,Columbus,Retail,3,4.3,12.79,Casey Diaz
+2021-02-16,Dark Bar 70%,Northeast,Boston,Online,7,5.08,36.32,Casey Diaz
+2021-02-16,Milk Bar,West,Los Angeles,Retail,1,3.88,4.01,Avery Lee
+2021-02-17,Milk Bar,Midwest,Columbus,Online,4,4.19,17.01,Morgan Chen
+2021-02-17,Sea Salt Caramel,South,Atlanta,Wholesale,4,5.74,22.79,Taylor Brooks
+2021-02-18,Dark Bar 70%,South,Atlanta,Retail,5,4.11,21.29,Jordan Kim
+2021-02-18,Milk Bar,West,Phoenix,Online,9,3.79,35.03,Taylor Brooks
+2021-02-18,Almond Crunch,South,Charlotte,Online,1,5.25,5.39,Taylor Brooks
+2021-02-19,Almond Crunch,Midwest,Milwaukee,Wholesale,5,4.7,23.04,Jamie Rivera
+2021-02-19,Milk Bar,West,Seattle,Retail,1,4.11,4.03,Morgan Chen
+2021-02-20,Dark Bar 70%,South,Charlotte,Retail,1,4.38,4.44,Taylor Brooks
+2021-02-20,Almond Crunch,West,San Diego,Retail,3,4.32,13.12,Avery Lee
+2021-02-20,Almond Crunch,South,Dallas,Wholesale,2,4.87,9.66,Jamie Rivera
+2021-02-20,Hazelnut Praline,Northeast,Boston,Online,4,6.05,24.49,Jordan Kim
+2021-02-21,Truffle Assortment,West,Seattle,Retail,2,12.64,25.37,Avery Lee
+2021-02-21,Almond Crunch,South,Charlotte,Online,1,5.39,5.54,Jordan Kim
+2021-02-22,Dark Bar 70%,South,Houston,Retail,3,4.8,14.67,Avery Lee
+2021-02-22,Milk Bar,South,Charlotte,Online,2,3.54,7.0,Avery Lee
+2021-02-22,Sea Salt Caramel,Midwest,Detroit,Retail,2,5.69,11.35,Jamie Rivera
+2021-02-23,Hazelnut Praline,South,Charlotte,Retail,1,5.27,5.17,Taylor Brooks
+2021-02-23,Hazelnut Praline,South,Charlotte,Retail,4,6.27,25.31,Morgan Chen
+2021-02-23,Dark Bar 70%,South,Charlotte,Online,2,4.76,9.56,Taylor Brooks
+2021-02-23,Sea Salt Caramel,South,Dallas,Wholesale,2,6.46,12.91,Jordan Kim
+2021-02-24,Truffle Assortment,Midwest,Chicago,Online,2,10.43,20.96,Taylor Brooks
+2021-02-24,Dark Bar 70%,Midwest,Milwaukee,Online,2,4.25,8.73,Avery Lee
+2021-02-24,Dark Bar 70%,South,Charlotte,Wholesale,1,4.98,4.94,Jamie Rivera
+2021-02-24,Milk Bar,Midwest,Detroit,Retail,2,4.26,8.95,Morgan Chen
+2021-02-24,Almond Crunch,Northeast,New York,Online,4,4.0,16.24,Taylor Brooks
+2021-02-25,Milk Bar,West,San Diego,Online,2,4.16,8.47,Jordan Kim
+2021-02-25,Dark Bar 70%,South,Charlotte,Online,2,4.86,9.8,Riley Patel
+2021-02-26,Sea Salt Caramel,South,Dallas,Wholesale,3,5.63,17.2,Avery Lee
+2021-02-26,Almond Crunch,South,Charlotte,Online,3,5.72,17.03,Taylor Brooks
+2021-02-26,Truffle Assortment,Midwest,Detroit,Online,1,11.63,12.1,Jamie Rivera
+2021-02-26,Sea Salt Caramel,Midwest,Chicago,Online,5,5.1,24.99,Casey Diaz
+2021-02-27,Sea Salt Caramel,Midwest,Milwaukee,Online,4,6.17,24.42,Jamie Rivera
+2021-02-27,Sea Salt Caramel,Midwest,Chicago,Retail,2,5.59,11.41,Avery Lee
+2021-02-27,Almond Crunch,West,Las Vegas,Online,1,4.49,4.52,Casey Diaz
+2021-02-27,Sea Salt Caramel,Midwest,Milwaukee,Online,2,5.39,11.08,Casey Diaz
+2021-02-28,Dark Bar 70%,Northeast,Philadelphia,Online,3,4.54,13.78,Taylor Brooks
+2021-02-28,Dark Bar 70%,Midwest,Detroit,Retail,1,4.6,4.61,Jamie Rivera
+2021-03-01,Almond Crunch,Midwest,Detroit,Wholesale,1,5.26,5.33,Casey Diaz
+2021-03-01,Hazelnut Praline,Midwest,Milwaukee,Retail,3,6.58,19.94,Casey Diaz
+2021-03-02,Milk Bar,South,Dallas,Retail,1,3.63,3.69,Casey Diaz
+2021-03-02,Milk Bar,Northeast,Philadelphia,Retail,4,3.75,15.3,Taylor Brooks
+2021-03-02,Milk Bar,Northeast,Providence,Online,3,3.92,11.98,Morgan Chen
+2021-03-02,Truffle Assortment,Northeast,Philadelphia,Retail,2,13.1,26.4,Avery Lee
+2021-03-02,Almond Crunch,West,Phoenix,Retail,1,4.63,4.58,Taylor Brooks
+2021-03-03,Milk Bar,Northeast,Providence,Retail,1,4.03,4.08,Jamie Rivera
+2021-03-03,Truffle Assortment,Northeast,Philadelphia,Online,5,14.26,72.77,Taylor Brooks
+2021-03-03,Dark Bar 70%,West,Phoenix,Wholesale,2,3.96,8.28,Jamie Rivera
+2021-03-04,Almond Crunch,West,Los Angeles,Retail,1,4.69,4.83,Riley Patel
+2021-03-04,Almond Crunch,West,San Diego,Retail,2,5.25,10.4,Taylor Brooks
+2021-03-04,Milk Bar,Midwest,Minneapolis,Online,7,3.67,26.54,Taylor Brooks
+2021-03-04,Hazelnut Praline,Northeast,New York,Retail,3,5.66,17.62,Avery Lee
+2021-03-05,Milk Bar,West,Las Vegas,Online,2,4.47,9.14,Morgan Chen
+2021-03-05,Dark Bar 70%,South,Dallas,Retail,1,4.36,4.38,Riley Patel
+2021-03-05,Milk Bar,Northeast,Baltimore,Online,1,4.32,4.25,Morgan Chen
+2021-03-05,Hazelnut Praline,Midwest,Chicago,Wholesale,2,5.86,11.63,Casey Diaz
+2021-03-06,Sea Salt Caramel,Midwest,Chicago,Online,6,5.53,34.43,Riley Patel
+2021-03-06,Almond Crunch,South,Atlanta,Online,3,4.93,14.79,Riley Patel
+2021-03-06,Hazelnut Praline,West,Las Vegas,Retail,11,5.78,64.14,Avery Lee
+2021-03-07,Truffle Assortment,West,Phoenix,Retail,4,11.95,47.63,Morgan Chen
+2021-03-08,Truffle Assortment,Northeast,Providence,Retail,2,11.84,24.45,Casey Diaz
+2021-03-08,Truffle Assortment,Northeast,Boston,Retail,4,12.56,50.51,Casey Diaz
+2021-03-08,Milk Bar,South,Dallas,Online,3,4.3,12.79,Jamie Rivera
+2021-03-09,Almond Crunch,Midwest,Milwaukee,Retail,4,4.86,19.67,Morgan Chen
+2021-03-10,Truffle Assortment,Midwest,Detroit,Wholesale,1,11.22,11.05,Morgan Chen
+2021-03-11,Truffle Assortment,South,Miami,Retail,3,11.12,34.73,Morgan Chen
+2021-03-11,Truffle Assortment,West,Las Vegas,Online,4,13.16,52.39,Taylor Brooks
+2021-03-12,Truffle Assortment,South,Atlanta,Retail,3,12.61,39.72,Jordan Kim
+2021-03-12,Milk Bar,West,San Diego,Wholesale,4,3.04,12.15,Casey Diaz
+2021-03-12,Dark Bar 70%,West,Seattle,Online,13,4.79,63.07,Casey Diaz
+2021-03-13,Hazelnut Praline,Northeast,Boston,Online,3,5.92,17.73,Avery Lee
+2021-03-14,Sea Salt Caramel,West,Los Angeles,Retail,2,5.71,11.85,Morgan Chen
+2021-03-14,Almond Crunch,Midwest,Minneapolis,Online,2,4.92,9.9,Jamie Rivera
+2021-03-14,Milk Bar,Midwest,Minneapolis,Online,1,4.7,4.86,Riley Patel
+2021-03-15,Hazelnut Praline,Midwest,Minneapolis,Retail,4,6.37,25.28,Casey Diaz
+2021-03-15,Sea Salt Caramel,South,Miami,Retail,1,5.86,6.08,Jordan Kim
+2021-03-15,Sea Salt Caramel,South,Atlanta,Online,1,6.46,6.78,Taylor Brooks
+2021-03-16,Truffle Assortment,Northeast,Boston,Online,3,13.38,40.23,Casey Diaz
+2021-03-16,Hazelnut Praline,Midwest,Columbus,Retail,1,6.21,6.4,Jamie Rivera
+2021-03-16,Sea Salt Caramel,South,Atlanta,Online,7,5.11,35.37,Riley Patel
+2021-03-17,Almond Crunch,Midwest,Milwaukee,Retail,2,4.54,9.11,Riley Patel
+2021-03-17,Dark Bar 70%,West,Phoenix,Retail,5,4.35,21.82,Taylor Brooks
+2021-03-17,Truffle Assortment,West,San Diego,Retail,2,11.05,22.92,Avery Lee
+2021-03-17,Truffle Assortment,South,Miami,Retail,3,11.29,34.81,Taylor Brooks
+2021-03-17,Dark Bar 70%,Midwest,Chicago,Retail,3,4.52,13.5,Riley Patel
+2021-03-18,Dark Bar 70%,South,Miami,Retail,2,4.64,9.11,Morgan Chen
+2021-03-18,Dark Bar 70%,Midwest,Columbus,Wholesale,4,4.86,19.32,Jordan Kim
+2021-03-18,Almond Crunch,Midwest,Detroit,Retail,4,5.3,22.05,Taylor Brooks
+2021-03-19,Dark Bar 70%,West,Seattle,Retail,2,4.33,9.02,Morgan Chen
+2021-03-19,Hazelnut Praline,West,San Diego,Online,2,5.23,10.84,Casey Diaz
+2021-03-19,Almond Crunch,Midwest,Columbus,Retail,1,5.5,5.45,Avery Lee
+2021-03-20,Milk Bar,West,Phoenix,Wholesale,1,3.59,3.66,Casey Diaz
+2021-03-20,Truffle Assortment,Northeast,Boston,Retail,2,12.96,26.11,Jamie Rivera
+2021-03-21,Truffle Assortment,West,Seattle,Online,2,11.07,22.51,Jamie Rivera
+2021-03-21,Almond Crunch,Midwest,Chicago,Online,4,5.13,20.5,Taylor Brooks
+2021-03-21,Dark Bar 70%,South,Miami,Online,2,4.61,9.67,Morgan Chen
+2021-03-22,Almond Crunch,South,Atlanta,Online,3,4.78,14.18,Jamie Rivera
+2021-03-22,Truffle Assortment,Midwest,Columbus,Retail,9,11.91,111.15,Morgan Chen
+2021-03-22,Hazelnut Praline,Midwest,Chicago,Retail,1,5.88,6.09,Casey Diaz
+2021-03-23,Hazelnut Praline,West,Seattle,Online,2,6.1,12.46,Casey Diaz
+2021-03-24,Dark Bar 70%,West,Phoenix,Online,1,5.17,5.16,Morgan Chen
+2021-03-24,Hazelnut Praline,Midwest,Milwaukee,Online,3,5.01,15.26,Jordan Kim
+2021-03-24,Sea Salt Caramel,South,Miami,Online,1,5.06,5.08,Morgan Chen
+2021-03-24,Milk Bar,South,Dallas,Retail,4,4.11,16.7,Jamie Rivera
+2021-03-25,Dark Bar 70%,Midwest,Milwaukee,Online,1,4.86,4.92,Riley Patel
+2021-03-25,Sea Salt Caramel,Northeast,New York,Wholesale,7,5.19,38.02,Riley Patel
+2021-03-25,Hazelnut Praline,South,Atlanta,Wholesale,11,6.42,74.08,Taylor Brooks
+2021-03-25,Truffle Assortment,Midwest,Detroit,Retail,6,11.76,70.68,Jordan Kim
+2021-03-25,Hazelnut Praline,South,Houston,Retail,1,5.97,6.25,Casey Diaz
+2021-03-25,Sea Salt Caramel,Northeast,New York,Online,1,4.72,4.92,Jordan Kim
+2021-03-25,Dark Bar 70%,South,Charlotte,Online,3,4.91,14.75,Avery Lee
+2021-03-26,Truffle Assortment,West,Los Angeles,Retail,8,12.71,106.33,Riley Patel
+2021-03-26,Truffle Assortment,Northeast,Philadelphia,Online,5,13.8,67.7,Jamie Rivera
+2021-03-27,Milk Bar,West,Phoenix,Online,4,3.65,14.96,Taylor Brooks
+2021-03-27,Dark Bar 70%,Midwest,Minneapolis,Online,4,4.75,19.08,Avery Lee
+2021-03-27,Truffle Assortment,South,Dallas,Wholesale,2,11.64,23.87,Taylor Brooks
+2021-03-27,Hazelnut Praline,South,Miami,Online,2,5.34,10.83,Jamie Rivera
+2021-03-28,Dark Bar 70%,South,Dallas,Retail,1,4.18,4.1,Casey Diaz
+2021-03-28,Almond Crunch,West,Phoenix,Retail,7,4.68,32.78,Avery Lee
+2021-03-28,Dark Bar 70%,Midwest,Milwaukee,Online,5,4.59,23.46,Jamie Rivera
+2021-03-29,Truffle Assortment,South,Charlotte,Wholesale,8,12.19,99.93,Jamie Rivera
+2021-03-29,Almond Crunch,South,Atlanta,Wholesale,4,4.57,18.29,Morgan Chen
+2021-03-29,Milk Bar,South,Atlanta,Online,3,4.07,11.97,Jordan Kim
+2021-03-29,Dark Bar 70%,Midwest,Minneapolis,Retail,3,4.61,13.85,Avery Lee
+2021-03-30,Dark Bar 70%,South,Miami,Online,3,4.51,14.17,Jordan Kim
+2021-03-31,Milk Bar,Northeast,Philadelphia,Online,4,3.77,15.73,Jordan Kim
+2021-03-31,Milk Bar,Midwest,Columbus,Online,1,3.99,4.1,Jordan Kim
+2021-04-01,Milk Bar,West,Las Vegas,Wholesale,6,3.88,22.98,Avery Lee
+2021-04-01,Almond Crunch,West,Las Vegas,Online,2,4.26,8.58,Avery Lee
+2021-04-01,Dark Bar 70%,West,Las Vegas,Online,2,4.08,8.56,Avery Lee
+2021-04-01,Milk Bar,Midwest,Minneapolis,Retail,4,3.94,16.38,Morgan Chen
+2021-04-02,Truffle Assortment,West,San Diego,Retail,1,12.96,12.9,Riley Patel
+2021-04-02,Milk Bar,South,Charlotte,Online,10,3.6,37.23,Jamie Rivera
+2021-04-02,Sea Salt Caramel,South,Atlanta,Retail,4,5.32,20.91,Jamie Rivera
+2021-04-03,Hazelnut Praline,West,Los Angeles,Retail,4,5.79,24.25,Avery Lee
+2021-04-03,Sea Salt Caramel,South,Dallas,Retail,1,6.79,7.09,Morgan Chen
+2021-04-03,Sea Salt Caramel,South,Houston,Retail,4,4.83,19.83,Taylor Brooks
+2021-04-03,Hazelnut Praline,West,Seattle,Retail,6,6.24,37.79,Taylor Brooks
+2021-04-05,Almond Crunch,Northeast,Providence,Retail,3,4.61,13.79,Morgan Chen
+2021-04-05,Dark Bar 70%,South,Miami,Online,2,4.62,9.64,Avery Lee
+2021-04-05,Almond Crunch,West,Los Angeles,Online,2,5.21,10.8,Taylor Brooks
+2021-04-05,Truffle Assortment,Midwest,Minneapolis,Wholesale,1,11.51,12.03,Casey Diaz
+2021-04-06,Almond Crunch,West,Seattle,Retail,2,4.68,9.78,Taylor Brooks
+2021-04-06,Dark Bar 70%,Northeast,New York,Wholesale,4,4.46,18.12,Morgan Chen
+2021-04-06,Almond Crunch,West,Las Vegas,Retail,3,5.6,17.58,Taylor Brooks
+2021-04-06,Hazelnut Praline,Northeast,Boston,Online,8,5.98,48.77,Taylor Brooks
+2021-04-07,Almond Crunch,South,Miami,Online,1,5.57,5.74,Riley Patel
+2021-04-07,Hazelnut Praline,South,Charlotte,Online,2,5.68,11.4,Riley Patel
+2021-04-08,Hazelnut Praline,South,Atlanta,Online,4,6.14,25.2,Taylor Brooks
+2021-04-08,Dark Bar 70%,Northeast,Philadelphia,Online,3,4.04,12.44,Riley Patel
+2021-04-09,Milk Bar,South,Dallas,Online,2,4.09,8.22,Jordan Kim
+2021-04-09,Truffle Assortment,Midwest,Columbus,Retail,4,10.86,44.74,Riley Patel
+2021-04-09,Hazelnut Praline,Northeast,Providence,Retail,4,6.22,24.78,Morgan Chen
+2021-04-09,Sea Salt Caramel,Northeast,Boston,Online,3,5.32,15.87,Riley Patel
+2021-04-10,Dark Bar 70%,Midwest,Minneapolis,Wholesale,2,3.77,7.48,Riley Patel
+2021-04-10,Dark Bar 70%,South,Houston,Wholesale,3,4.39,13.21,Taylor Brooks
+2021-04-10,Truffle Assortment,Midwest,Chicago,Online,5,11.08,57.08,Jordan Kim
+2021-04-10,Truffle Assortment,South,Dallas,Retail,7,12.8,92.8,Riley Patel
+2021-04-10,Sea Salt Caramel,West,San Diego,Online,7,6.07,43.29,Avery Lee
+2021-04-10,Hazelnut Praline,Midwest,Columbus,Online,4,6.29,25.93,Casey Diaz
+2021-04-11,Milk Bar,Midwest,Milwaukee,Wholesale,4,3.69,15.31,Casey Diaz
+2021-04-11,Sea Salt Caramel,West,Phoenix,Retail,4,5.62,22.15,Casey Diaz
+2021-04-11,Dark Bar 70%,South,Houston,Online,8,4.81,38.13,Jamie Rivera
+2021-04-11,Almond Crunch,South,Atlanta,Online,3,4.71,14.72,Casey Diaz
+2021-04-12,Milk Bar,South,Dallas,Wholesale,6,4.36,27.34,Avery Lee
+2021-04-12,Milk Bar,Midwest,Detroit,Retail,5,3.88,20.19,Jordan Kim
+2021-04-12,Truffle Assortment,Northeast,Philadelphia,Retail,3,13.72,42.9,Riley Patel
+2021-04-13,Hazelnut Praline,Midwest,Detroit,Retail,1,6.1,6.35,Riley Patel
+2021-04-13,Truffle Assortment,South,Dallas,Online,3,10.85,33.52,Riley Patel
+2021-04-13,Sea Salt Caramel,Midwest,Columbus,Retail,2,5.07,10.08,Taylor Brooks
+2021-04-13,Sea Salt Caramel,West,Los Angeles,Online,4,6.38,25.77,Casey Diaz
+2021-04-13,Truffle Assortment,Midwest,Minneapolis,Online,3,10.83,33.36,Taylor Brooks
+2021-04-13,Dark Bar 70%,West,Phoenix,Online,3,4.57,14.33,Taylor Brooks
+2021-04-13,Hazelnut Praline,West,Phoenix,Wholesale,1,7.26,7.43,Riley Patel
+2021-04-13,Almond Crunch,Northeast,Philadelphia,Retail,2,4.91,9.66,Taylor Brooks
+2021-04-13,Dark Bar 70%,Northeast,Philadelphia,Retail,2,4.58,9.19,Taylor Brooks
+2021-04-14,Almond Crunch,South,Houston,Retail,1,4.65,4.56,Jordan Kim
+2021-04-14,Hazelnut Praline,Northeast,Baltimore,Retail,3,7.22,21.32,Jamie Rivera
+2021-04-14,Hazelnut Praline,Midwest,Minneapolis,Online,1,6.23,6.38,Casey Diaz
+2021-04-14,Dark Bar 70%,West,Seattle,Online,3,4.41,13.4,Taylor Brooks
+2021-04-14,Dark Bar 70%,South,Atlanta,Retail,4,4.74,18.74,Jordan Kim
+2021-04-14,Hazelnut Praline,Northeast,Philadelphia,Retail,2,6.47,13.55,Taylor Brooks
+2021-04-15,Almond Crunch,South,Houston,Online,1,5.32,5.24,Jordan Kim
+2021-04-15,Hazelnut Praline,West,Seattle,Online,10,6.16,63.6,Casey Diaz
+2021-04-16,Milk Bar,Northeast,Providence,Wholesale,10,3.19,32.73,Avery Lee
+2021-04-16,Sea Salt Caramel,West,Phoenix,Online,3,5.21,16.08,Casey Diaz
+2021-04-17,Almond Crunch,Midwest,Minneapolis,Wholesale,3,5.28,15.75,Avery Lee
+2021-04-18,Milk Bar,Northeast,Philadelphia,Wholesale,2,4.21,8.29,Casey Diaz
+2021-04-18,Dark Bar 70%,Northeast,Boston,Retail,3,4.75,14.29,Taylor Brooks
+2021-04-18,Truffle Assortment,Northeast,Providence,Online,8,13.18,107.37,Taylor Brooks
+2021-04-18,Hazelnut Praline,South,Miami,Online,4,6.0,23.54,Riley Patel
+2021-04-19,Sea Salt Caramel,Midwest,Detroit,Online,2,5.71,11.93,Taylor Brooks
+2021-04-19,Truffle Assortment,South,Atlanta,Online,4,12.04,47.24,Avery Lee
+2021-04-19,Milk Bar,Northeast,Baltimore,Online,7,4.24,29.47,Riley Patel
+2021-04-19,Truffle Assortment,Northeast,New York,Retail,3,11.62,36.56,Jordan Kim
+2021-04-19,Hazelnut Praline,West,Las Vegas,Online,4,5.57,22.26,Taylor Brooks
+2021-04-20,Milk Bar,Midwest,Chicago,Retail,5,3.58,17.92,Morgan Chen
+2021-04-20,Truffle Assortment,West,San Diego,Online,1,12.64,12.72,Riley Patel
+2021-04-20,Hazelnut Praline,West,Phoenix,Wholesale,3,5.21,15.71,Avery Lee
+2021-04-20,Dark Bar 70%,South,Miami,Online,1,5.28,5.5,Avery Lee
+2021-04-20,Dark Bar 70%,Midwest,Columbus,Wholesale,3,4.55,14.32,Morgan Chen
+2021-04-20,Sea Salt Caramel,West,San Diego,Retail,1,6.1,6.0,Morgan Chen
+2021-04-21,Milk Bar,South,Charlotte,Online,1,4.08,4.13,Morgan Chen
+2021-04-21,Dark Bar 70%,South,Miami,Retail,3,4.15,12.51,Taylor Brooks
+2021-04-21,Sea Salt Caramel,Northeast,Boston,Retail,3,4.98,14.75,Morgan Chen
+2021-04-22,Milk Bar,South,Miami,Wholesale,2,4.67,9.74,Jamie Rivera
+2021-04-22,Milk Bar,South,Atlanta,Retail,2,4.49,8.88,Avery Lee
+2021-04-22,Sea Salt Caramel,Midwest,Milwaukee,Online,6,5.58,34.02,Riley Patel
+2021-04-22,Hazelnut Praline,Midwest,Minneapolis,Retail,3,5.82,17.75,Casey Diaz
+2021-04-22,Truffle Assortment,Northeast,Philadelphia,Retail,2,13.45,27.01,Riley Patel
+2021-04-23,Hazelnut Praline,Northeast,New York,Online,2,5.64,11.25,Jamie Rivera
+2021-04-23,Truffle Assortment,West,Phoenix,Wholesale,5,12.56,64.73,Jamie Rivera
+2021-04-23,Dark Bar 70%,West,Los Angeles,Retail,3,4.34,12.79,Taylor Brooks
+2021-04-23,Dark Bar 70%,South,Dallas,Online,3,4.26,12.77,Jordan Kim
+2021-04-24,Sea Salt Caramel,South,Charlotte,Retail,2,5.85,12.28,Jordan Kim
+2021-04-24,Sea Salt Caramel,West,San Diego,Online,2,5.14,10.61,Taylor Brooks
+2021-04-25,Milk Bar,Midwest,Minneapolis,Retail,4,4.82,18.91,Avery Lee
+2021-04-25,Milk Bar,Northeast,Philadelphia,Online,5,4.26,21.93,Jamie Rivera
+2021-04-25,Milk Bar,South,Atlanta,Online,1,4.38,4.52,Taylor Brooks
+2021-04-26,Hazelnut Praline,West,Los Angeles,Online,2,5.66,11.82,Avery Lee
+2021-04-26,Milk Bar,West,Phoenix,Online,3,4.23,13.05,Jordan Kim
+2021-04-26,Dark Bar 70%,Northeast,Philadelphia,Retail,5,4.35,22.76,Taylor Brooks
+2021-04-27,Almond Crunch,Northeast,Boston,Online,3,5.45,16.99,Taylor Brooks
+2021-04-27,Sea Salt Caramel,South,Charlotte,Wholesale,3,5.03,15.1,Jordan Kim
+2021-04-27,Sea Salt Caramel,Midwest,Detroit,Retail,6,5.47,33.04,Taylor Brooks
+2021-04-27,Hazelnut Praline,South,Miami,Wholesale,5,6.14,31.96,Jamie Rivera
+2021-04-27,Hazelnut Praline,South,Houston,Retail,2,5.22,10.66,Morgan Chen
+2021-04-28,Milk Bar,West,Los Angeles,Retail,4,3.94,15.96,Casey Diaz
+2021-04-28,Almond Crunch,Midwest,Detroit,Retail,2,4.56,9.3,Jordan Kim
+2021-04-28,Almond Crunch,Northeast,New York,Online,3,4.91,14.74,Riley Patel
+2021-04-28,Milk Bar,South,Atlanta,Retail,8,4.65,37.19,Jordan Kim
+2021-04-28,Sea Salt Caramel,Midwest,Milwaukee,Retail,4,5.0,20.65,Casey Diaz
+2021-04-28,Dark Bar 70%,West,Phoenix,Retail,3,4.51,13.7,Jordan Kim
+2021-04-29,Hazelnut Praline,West,Las Vegas,Retail,2,5.82,12.17,Riley Patel
+2021-04-29,Dark Bar 70%,Midwest,Columbus,Retail,3,4.14,12.59,Morgan Chen
+2021-04-29,Truffle Assortment,West,Los Angeles,Online,10,13.79,140.97,Jordan Kim
+2021-04-30,Almond Crunch,South,Miami,Retail,3,4.97,15.17,Morgan Chen
+2021-04-30,Milk Bar,Midwest,Detroit,Online,2,4.27,8.73,Taylor Brooks
+2021-04-30,Dark Bar 70%,Northeast,Boston,Online,8,4.48,35.97,Taylor Brooks
+2021-04-30,Almond Crunch,West,San Diego,Online,2,5.03,10.06,Casey Diaz
+2021-04-30,Truffle Assortment,South,Dallas,Wholesale,3,13.66,41.41,Riley Patel
+2021-05-01,Almond Crunch,South,Dallas,Online,1,5.43,5.64,Taylor Brooks
+2021-05-01,Dark Bar 70%,Midwest,Columbus,Wholesale,2,4.68,9.54,Morgan Chen
+2021-05-01,Milk Bar,South,Dallas,Online,6,3.61,22.26,Jordan Kim
+2021-05-01,Almond Crunch,South,Atlanta,Wholesale,2,5.07,10.64,Taylor Brooks
+2021-05-02,Dark Bar 70%,Midwest,Columbus,Retail,4,4.36,17.19,Riley Patel
+2021-05-02,Almond Crunch,Northeast,New York,Online,2,5.34,10.81,Jamie Rivera
+2021-05-02,Almond Crunch,Northeast,New York,Retail,1,4.97,4.87,Morgan Chen
+2021-05-02,Milk Bar,Northeast,Baltimore,Online,2,3.65,7.35,Jordan Kim
+2021-05-03,Truffle Assortment,West,San Diego,Online,10,13.69,138.72,Avery Lee
+2021-05-03,Dark Bar 70%,Northeast,Philadelphia,Online,2,4.28,8.61,Casey Diaz
+2021-05-03,Almond Crunch,Midwest,Chicago,Online,11,4.05,43.99,Casey Diaz
+2021-05-04,Almond Crunch,Midwest,Milwaukee,Wholesale,1,5.32,5.54,Avery Lee
+2021-05-04,Dark Bar 70%,Northeast,Providence,Online,4,4.39,17.4,Jamie Rivera
+2021-05-04,Truffle Assortment,Midwest,Milwaukee,Wholesale,7,10.78,76.73,Casey Diaz
+2021-05-04,Hazelnut Praline,South,Charlotte,Wholesale,3,5.26,16.18,Morgan Chen
+2021-05-05,Almond Crunch,Northeast,Boston,Online,4,4.74,18.99,Avery Lee
+2021-05-05,Truffle Assortment,West,Phoenix,Retail,3,11.08,34.75,Taylor Brooks
+2021-05-05,Almond Crunch,South,Miami,Online,2,4.74,9.4,Riley Patel
+2021-05-06,Sea Salt Caramel,West,Seattle,Retail,11,6.17,67.01,Morgan Chen
+2021-05-06,Dark Bar 70%,South,Charlotte,Retail,8,4.69,39.3,Jamie Rivera
+2021-05-06,Milk Bar,South,Miami,Retail,3,3.16,9.87,Riley Patel
+2021-05-07,Sea Salt Caramel,Northeast,Philadelphia,Online,2,4.61,9.58,Morgan Chen
+2021-05-07,Almond Crunch,Northeast,Baltimore,Online,1,5.11,5.25,Avery Lee
+2021-05-07,Almond Crunch,Northeast,Philadelphia,Online,1,5.13,5.34,Morgan Chen
+2021-05-08,Milk Bar,West,Las Vegas,Retail,3,3.91,12.01,Taylor Brooks
+2021-05-08,Sea Salt Caramel,West,Seattle,Retail,2,5.9,12.38,Taylor Brooks
+2021-05-08,Milk Bar,South,Atlanta,Online,3,3.14,9.83,Avery Lee
+2021-05-08,Dark Bar 70%,South,Dallas,Retail,4,4.96,19.55,Jamie Rivera
+2021-05-08,Hazelnut Praline,South,Atlanta,Retail,1,6.65,6.77,Taylor Brooks
+2021-05-08,Hazelnut Praline,South,Dallas,Wholesale,2,5.66,11.66,Jordan Kim
+2021-05-08,Almond Crunch,South,Miami,Online,2,4.99,10.46,Jordan Kim
+2021-05-09,Dark Bar 70%,Midwest,Chicago,Online,1,4.04,4.16,Avery Lee
+2021-05-09,Dark Bar 70%,West,Las Vegas,Online,7,4.84,33.87,Casey Diaz
+2021-05-11,Hazelnut Praline,South,Miami,Online,2,6.67,13.32,Jamie Rivera
+2021-05-11,Sea Salt Caramel,West,San Diego,Online,5,5.92,29.46,Avery Lee
+2021-05-12,Sea Salt Caramel,West,Phoenix,Online,3,5.98,18.18,Taylor Brooks
+2021-05-13,Truffle Assortment,South,Charlotte,Online,4,13.74,55.07,Casey Diaz
+2021-05-13,Hazelnut Praline,Midwest,Columbus,Online,3,5.95,18.49,Jordan Kim
+2021-05-13,Hazelnut Praline,Midwest,Detroit,Wholesale,13,6.46,88.0,Casey Diaz
+2021-05-14,Almond Crunch,Midwest,Chicago,Online,1,4.72,4.66,Casey Diaz
+2021-05-14,Hazelnut Praline,South,Charlotte,Online,3,4.96,14.97,Jamie Rivera
+2021-05-14,Almond Crunch,Midwest,Columbus,Retail,8,5.32,41.95,Riley Patel
+2021-05-14,Milk Bar,Northeast,Providence,Online,4,3.84,15.49,Jordan Kim
+2021-05-15,Hazelnut Praline,South,Miami,Retail,2,5.59,11.14,Avery Lee
+2021-05-15,Dark Bar 70%,South,Dallas,Retail,2,5.28,10.43,Jamie Rivera
+2021-05-15,Almond Crunch,South,Atlanta,Retail,5,5.27,26.91,Riley Patel
+2021-05-15,Truffle Assortment,Northeast,Boston,Retail,3,11.67,34.49,Taylor Brooks
+2021-05-16,Dark Bar 70%,Northeast,Baltimore,Retail,3,4.51,13.79,Jordan Kim
+2021-05-16,Dark Bar 70%,Northeast,Philadelphia,Retail,7,4.67,34.16,Riley Patel
+2021-05-16,Sea Salt Caramel,South,Miami,Wholesale,1,5.64,5.77,Riley Patel
+2021-05-17,Sea Salt Caramel,West,Los Angeles,Retail,1,5.21,5.21,Morgan Chen
+2021-05-17,Milk Bar,West,Seattle,Retail,2,4.21,8.57,Casey Diaz
+2021-05-17,Almond Crunch,Northeast,Providence,Online,1,6.01,6.24,Taylor Brooks
+2021-05-18,Truffle Assortment,Northeast,Philadelphia,Retail,3,10.66,32.72,Jamie Rivera
+2021-05-18,Hazelnut Praline,South,Miami,Wholesale,1,5.52,5.56,Morgan Chen
+2021-05-18,Milk Bar,Northeast,Boston,Retail,1,3.7,3.87,Jamie Rivera
+2021-05-18,Milk Bar,West,Seattle,Online,8,3.74,30.22,Avery Lee
+2021-05-18,Milk Bar,Northeast,Baltimore,Retail,3,4.45,13.43,Morgan Chen
+2021-05-18,Almond Crunch,Midwest,Columbus,Online,12,4.54,56.23,Morgan Chen
+2021-05-18,Dark Bar 70%,West,Seattle,Online,3,4.51,13.34,Jordan Kim
+2021-05-19,Truffle Assortment,Northeast,Philadelphia,Online,1,13.19,13.69,Riley Patel
+2021-05-19,Sea Salt Caramel,South,Atlanta,Retail,7,5.61,38.98,Jamie Rivera
+2021-05-19,Almond Crunch,Northeast,Boston,Online,3,5.21,15.95,Jordan Kim
+2021-05-19,Almond Crunch,Northeast,Philadelphia,Retail,2,5.41,11.28,Jordan Kim
+2021-05-20,Almond Crunch,Northeast,Baltimore,Retail,1,5.39,5.32,Morgan Chen
+2021-05-20,Sea Salt Caramel,South,Atlanta,Online,1,6.07,6.33,Avery Lee
+2021-05-20,Almond Crunch,West,Seattle,Online,1,5.0,5.2,Morgan Chen
+2021-05-20,Dark Bar 70%,Midwest,Detroit,Retail,5,4.26,22.18,Taylor Brooks
+2021-05-20,Truffle Assortment,Midwest,Minneapolis,Online,4,13.08,52.72,Jamie Rivera
+2021-05-21,Almond Crunch,Northeast,Boston,Online,3,4.93,15.34,Riley Patel
+2021-05-21,Truffle Assortment,Midwest,Minneapolis,Online,2,13.43,28.13,Avery Lee
+2021-05-21,Sea Salt Caramel,West,Phoenix,Online,5,5.29,26.78,Riley Patel
+2021-05-21,Hazelnut Praline,Midwest,Minneapolis,Retail,10,5.97,60.13,Avery Lee
+2021-05-21,Sea Salt Caramel,Midwest,Milwaukee,Wholesale,6,5.75,34.23,Avery Lee
+2021-05-21,Almond Crunch,West,Seattle,Retail,2,4.05,8.44,Morgan Chen
+2021-05-22,Hazelnut Praline,West,Phoenix,Online,1,6.16,6.17,Morgan Chen
+2021-05-22,Milk Bar,West,Los Angeles,Wholesale,3,3.79,11.41,Taylor Brooks
+2021-05-22,Sea Salt Caramel,Northeast,New York,Online,3,5.21,16.28,Casey Diaz
+2021-05-22,Hazelnut Praline,Northeast,Boston,Online,5,5.37,26.65,Casey Diaz
+2021-05-23,Milk Bar,West,Phoenix,Online,3,3.86,11.61,Morgan Chen
+2021-05-25,Dark Bar 70%,South,Atlanta,Retail,2,4.68,9.81,Morgan Chen
+2021-05-25,Hazelnut Praline,South,Charlotte,Wholesale,2,5.94,12.24,Morgan Chen
+2021-05-25,Almond Crunch,West,San Diego,Retail,2,4.28,8.73,Casey Diaz
+2021-05-25,Milk Bar,South,Miami,Retail,1,3.83,3.79,Casey Diaz
+2021-05-25,Almond Crunch,Midwest,Detroit,Online,4,5.1,20.75,Riley Patel
+2021-05-25,Sea Salt Caramel,Northeast,Providence,Online,2,5.05,10.25,Morgan Chen
+2021-05-26,Truffle Assortment,South,Dallas,Wholesale,1,11.45,11.76,Jamie Rivera
+2021-05-26,Sea Salt Caramel,West,Seattle,Retail,2,5.03,9.91,Jamie Rivera
+2021-05-26,Dark Bar 70%,South,Dallas,Online,2,4.74,9.63,Avery Lee
+2021-05-26,Sea Salt Caramel,Midwest,Minneapolis,Retail,5,6.38,33.11,Jordan Kim
+2021-05-27,Sea Salt Caramel,South,Miami,Wholesale,2,5.4,11.3,Morgan Chen
+2021-05-27,Almond Crunch,Midwest,Detroit,Retail,6,4.76,28.8,Taylor Brooks
+2021-05-27,Truffle Assortment,Midwest,Chicago,Wholesale,5,12.12,63.07,Casey Diaz
+2021-05-27,Truffle Assortment,Midwest,Detroit,Online,3,11.61,36.49,Avery Lee
+2021-05-27,Sea Salt Caramel,Midwest,Minneapolis,Retail,3,4.35,13.53,Riley Patel
+2021-05-27,Hazelnut Praline,West,Seattle,Retail,4,6.56,26.96,Jamie Rivera
+2021-05-28,Hazelnut Praline,South,Charlotte,Online,3,5.67,17.56,Jamie Rivera
+2021-05-28,Almond Crunch,West,San Diego,Online,2,5.52,11.03,Casey Diaz
+2021-05-29,Almond Crunch,Midwest,Milwaukee,Online,6,5.17,30.83,Taylor Brooks
+2021-05-29,Truffle Assortment,South,Dallas,Retail,3,11.43,34.7,Casey Diaz
+2021-05-29,Almond Crunch,Midwest,Chicago,Wholesale,2,5.05,10.48,Morgan Chen
+2021-05-30,Milk Bar,South,Charlotte,Online,1,4.18,4.12,Avery Lee
+2021-05-30,Dark Bar 70%,West,San Diego,Retail,2,3.97,7.87,Avery Lee
+2021-05-30,Dark Bar 70%,West,Seattle,Online,2,4.31,8.61,Avery Lee
+2021-05-30,Hazelnut Praline,South,Miami,Online,4,5.66,22.65,Jamie Rivera
+2021-05-30,Truffle Assortment,Northeast,Philadelphia,Retail,2,12.85,25.69,Riley Patel
+2021-05-31,Almond Crunch,Northeast,Providence,Wholesale,2,5.03,10.17,Jordan Kim
+2021-05-31,Milk Bar,Midwest,Milwaukee,Wholesale,2,3.38,6.81,Taylor Brooks
+2021-05-31,Milk Bar,Midwest,Detroit,Retail,2,4.14,8.61,Jamie Rivera
+2021-05-31,Almond Crunch,Midwest,Columbus,Wholesale,1,4.5,4.61,Avery Lee
+2021-06-01,Almond Crunch,Midwest,Detroit,Online,3,5.44,16.28,Jamie Rivera
+2021-06-01,Hazelnut Praline,West,San Diego,Online,5,6.11,29.96,Morgan Chen
+2021-06-01,Sea Salt Caramel,West,Phoenix,Online,5,5.67,28.6,Casey Diaz
+2021-06-01,Hazelnut Praline,Midwest,Milwaukee,Retail,1,5.94,6.2,Jamie Rivera
+2021-06-02,Hazelnut Praline,Midwest,Minneapolis,Online,2,5.89,12.28,Jordan Kim
+2021-06-02,Milk Bar,South,Charlotte,Online,3,3.41,10.54,Riley Patel
+2021-06-02,Milk Bar,Northeast,Philadelphia,Wholesale,7,4.49,31.83,Jamie Rivera
+2021-06-03,Dark Bar 70%,Northeast,Baltimore,Retail,2,4.6,9.05,Taylor Brooks
+2021-06-03,Dark Bar 70%,Midwest,Detroit,Online,2,4.25,8.43,Jamie Rivera
+2021-06-03,Hazelnut Praline,West,Seattle,Online,2,6.56,12.94,Casey Diaz
+2021-06-03,Dark Bar 70%,Midwest,Columbus,Retail,11,3.91,43.19,Avery Lee
+2021-06-04,Dark Bar 70%,Northeast,Baltimore,Retail,1,5.76,5.84,Jordan Kim
+2021-06-04,Sea Salt Caramel,Midwest,Detroit,Online,2,5.57,11.68,Taylor Brooks
+2021-06-04,Milk Bar,Midwest,Milwaukee,Online,2,3.78,7.64,Taylor Brooks
+2021-06-05,Milk Bar,West,Las Vegas,Online,1,3.78,3.97,Avery Lee
+2021-06-05,Hazelnut Praline,South,Charlotte,Wholesale,4,5.93,24.1,Avery Lee
+2021-06-05,Almond Crunch,West,San Diego,Retail,5,5.18,26.32,Casey Diaz
+2021-06-06,Almond Crunch,Northeast,Boston,Retail,3,5.13,15.97,Jordan Kim
+2021-06-06,Sea Salt Caramel,Northeast,Baltimore,Online,1,5.11,5.18,Casey Diaz
+2021-06-06,Almond Crunch,South,Houston,Retail,4,4.78,19.61,Avery Lee
+2021-06-06,Dark Bar 70%,West,Seattle,Online,2,4.37,9.0,Jamie Rivera
+2021-06-06,Milk Bar,Northeast,Providence,Online,3,4.0,12.05,Jamie Rivera
+2021-06-07,Truffle Assortment,Midwest,Detroit,Online,5,12.97,67.3,Morgan Chen
+2021-06-07,Hazelnut Praline,Northeast,Boston,Retail,3,5.55,16.43,Taylor Brooks
+2021-06-08,Almond Crunch,Midwest,Milwaukee,Retail,10,5.65,57.35,Taylor Brooks
+2021-06-09,Hazelnut Praline,West,San Diego,Online,2,5.59,11.5,Avery Lee
+2021-06-09,Milk Bar,Midwest,Columbus,Retail,5,3.74,18.58,Casey Diaz
+2021-06-09,Almond Crunch,South,Miami,Online,2,5.22,10.4,Jordan Kim
+2021-06-09,Sea Salt Caramel,South,Charlotte,Online,7,5.74,40.77,Morgan Chen
+2021-06-10,Dark Bar 70%,South,Houston,Online,16,4.87,76.99,Casey Diaz
+2021-06-10,Dark Bar 70%,South,Dallas,Online,4,4.43,17.83,Casey Diaz
+2021-06-10,Dark Bar 70%,Northeast,Boston,Wholesale,1,4.59,4.72,Jamie Rivera
+2021-06-10,Hazelnut Praline,South,Charlotte,Retail,2,5.71,11.71,Taylor Brooks
+2021-06-11,Hazelnut Praline,South,Atlanta,Online,1,5.61,5.63,Jamie Rivera
+2021-06-11,Sea Salt Caramel,Northeast,Baltimore,Retail,4,5.06,20.82,Avery Lee
+2021-06-11,Almond Crunch,West,Seattle,Retail,2,5.06,10.19,Casey Diaz
+2021-06-11,Sea Salt Caramel,Northeast,Philadelphia,Wholesale,4,5.92,23.78,Jordan Kim
+2021-06-12,Dark Bar 70%,Northeast,New York,Online,2,4.4,8.93,Morgan Chen
+2021-06-12,Almond Crunch,Midwest,Minneapolis,Retail,3,4.77,14.52,Casey Diaz
+2021-06-12,Sea Salt Caramel,Northeast,Philadelphia,Online,3,5.23,15.72,Taylor Brooks
+2021-06-12,Dark Bar 70%,West,Las Vegas,Retail,3,4.73,14.22,Avery Lee
+2021-06-12,Almond Crunch,West,Las Vegas,Online,5,5.51,28.52,Avery Lee
+2021-06-12,Sea Salt Caramel,West,Seattle,Retail,4,6.0,24.61,Taylor Brooks
+2021-06-12,Milk Bar,West,San Diego,Online,1,4.19,4.29,Avery Lee
+2021-06-13,Sea Salt Caramel,West,Seattle,Online,2,5.03,10.12,Riley Patel
+2021-06-13,Almond Crunch,Midwest,Detroit,Retail,3,4.34,13.46,Riley Patel
+2021-06-13,Dark Bar 70%,West,Phoenix,Online,4,4.82,19.36,Morgan Chen
+2021-06-14,Hazelnut Praline,South,Charlotte,Retail,6,5.29,33.27,Riley Patel
+2021-06-14,Truffle Assortment,South,Dallas,Retail,1,11.49,11.96,Jordan Kim
+2021-06-14,Dark Bar 70%,South,Charlotte,Wholesale,6,4.72,28.9,Taylor Brooks
+2021-06-14,Almond Crunch,Northeast,Boston,Wholesale,5,4.89,25.36,Avery Lee
+2021-06-15,Milk Bar,West,Phoenix,Retail,4,3.5,13.75,Avery Lee
+2021-06-15,Truffle Assortment,Midwest,Detroit,Retail,9,12.14,109.13,Jamie Rivera
+2021-06-15,Truffle Assortment,Northeast,Philadelphia,Online,2,11.89,24.46,Casey Diaz
+2021-06-15,Sea Salt Caramel,Northeast,New York,Online,8,5.09,42.38,Casey Diaz
+2021-06-16,Hazelnut Praline,Northeast,Providence,Retail,1,6.92,6.83,Riley Patel
+2021-06-16,Almond Crunch,Northeast,Baltimore,Retail,8,5.23,41.81,Morgan Chen
+2021-06-16,Sea Salt Caramel,Midwest,Detroit,Retail,2,5.0,9.96,Avery Lee
+2021-06-17,Milk Bar,Northeast,Philadelphia,Online,5,4.16,21.37,Taylor Brooks
+2021-06-17,Milk Bar,Northeast,Baltimore,Retail,2,4.18,8.69,Jordan Kim
+2021-06-17,Almond Crunch,Midwest,Chicago,Online,1,5.35,5.32,Jordan Kim
+2021-06-18,Dark Bar 70%,West,Phoenix,Online,1,4.68,4.61,Taylor Brooks
+2021-06-18,Dark Bar 70%,West,Los Angeles,Online,2,4.08,8.2,Jamie Rivera
+2021-06-18,Milk Bar,West,Los Angeles,Online,4,4.13,16.31,Jordan Kim
+2021-06-19,Hazelnut Praline,Northeast,Baltimore,Wholesale,4,5.95,23.97,Avery Lee
+2021-06-20,Truffle Assortment,Midwest,Minneapolis,Online,2,13.01,26.91,Avery Lee
+2021-06-20,Hazelnut Praline,West,Phoenix,Retail,5,5.52,27.8,Jordan Kim
+2021-06-20,Truffle Assortment,South,Miami,Retail,4,11.24,45.87,Taylor Brooks
+2021-06-20,Truffle Assortment,Midwest,Detroit,Retail,14,13.09,185.47,Riley Patel
+2021-06-20,Truffle Assortment,West,San Diego,Online,6,12.81,77.88,Riley Patel
+2021-06-20,Almond Crunch,West,Los Angeles,Online,1,5.39,5.31,Casey Diaz
+2021-06-21,Truffle Assortment,Midwest,Chicago,Online,3,12.5,38.17,Taylor Brooks
+2021-06-22,Dark Bar 70%,West,Los Angeles,Online,3,4.93,14.6,Riley Patel
+2021-06-22,Almond Crunch,West,Seattle,Online,2,4.81,9.76,Casey Diaz
+2021-06-22,Milk Bar,South,Houston,Retail,4,3.75,15.46,Casey Diaz
+2021-06-23,Sea Salt Caramel,Northeast,Boston,Retail,2,5.74,11.68,Taylor Brooks
+2021-06-24,Hazelnut Praline,Northeast,Boston,Wholesale,1,5.5,5.43,Jamie Rivera
+2021-06-24,Milk Bar,South,Atlanta,Retail,1,3.6,3.53,Jamie Rivera
+2021-06-24,Dark Bar 70%,West,Las Vegas,Online,6,4.33,25.55,Morgan Chen
+2021-06-25,Dark Bar 70%,South,Atlanta,Online,1,4.5,4.63,Morgan Chen
+2021-06-25,Truffle Assortment,Northeast,Baltimore,Online,5,12.46,62.34,Riley Patel
+2021-06-25,Almond Crunch,Northeast,Baltimore,Retail,6,4.55,27.95,Riley Patel
+2021-06-25,Truffle Assortment,South,Dallas,Online,2,12.81,25.47,Casey Diaz
+2021-06-26,Dark Bar 70%,Northeast,Baltimore,Retail,2,5.03,10.49,Jordan Kim
+2021-06-26,Almond Crunch,Northeast,Boston,Online,3,5.18,15.73,Taylor Brooks
+2021-06-26,Hazelnut Praline,Northeast,Philadelphia,Online,7,6.36,45.34,Avery Lee
+2021-06-27,Hazelnut Praline,Northeast,Boston,Online,5,5.96,30.97,Morgan Chen
+2021-06-27,Sea Salt Caramel,South,Atlanta,Retail,5,5.55,28.78,Riley Patel
+2021-06-27,Milk Bar,Midwest,Minneapolis,Online,1,4.35,4.32,Casey Diaz
+2021-06-28,Milk Bar,South,Miami,Retail,3,4.55,13.92,Taylor Brooks
+2021-06-28,Dark Bar 70%,West,Seattle,Wholesale,3,4.7,13.87,Avery Lee
+2021-06-28,Milk Bar,Midwest,Columbus,Online,9,4.24,38.68,Riley Patel
+2021-06-28,Hazelnut Praline,Northeast,Providence,Retail,3,5.8,17.59,Jamie Rivera
+2021-06-29,Almond Crunch,West,Los Angeles,Online,8,4.67,38.9,Avery Lee
+2021-06-29,Milk Bar,West,San Diego,Wholesale,2,3.5,6.88,Jamie Rivera
+2021-06-29,Dark Bar 70%,South,Houston,Retail,2,5.08,10.6,Riley Patel
+2021-06-30,Almond Crunch,Northeast,Boston,Wholesale,2,5.67,11.31,Avery Lee
+2021-06-30,Milk Bar,Northeast,Providence,Online,14,4.53,64.77,Casey Diaz
+2021-07-01,Sea Salt Caramel,Northeast,Providence,Wholesale,7,5.02,36.74,Jordan Kim
+2021-07-01,Dark Bar 70%,West,Phoenix,Retail,2,4.27,8.68,Jamie Rivera
+2021-07-01,Milk Bar,West,Los Angeles,Retail,4,4.1,16.84,Jordan Kim
+2021-07-01,Milk Bar,Northeast,New York,Retail,2,3.57,7.02,Morgan Chen
+2021-07-01,Almond Crunch,West,Los Angeles,Retail,2,5.56,11.06,Taylor Brooks
+2021-07-02,Sea Salt Caramel,Northeast,Baltimore,Online,5,5.47,28.08,Avery Lee
+2021-07-02,Milk Bar,Midwest,Milwaukee,Wholesale,1,3.65,3.77,Jordan Kim
+2021-07-02,Hazelnut Praline,Northeast,New York,Retail,1,6.5,6.77,Casey Diaz
+2021-07-02,Dark Bar 70%,South,Houston,Online,3,4.51,13.45,Riley Patel
+2021-07-02,Milk Bar,Northeast,Baltimore,Online,4,4.06,16.39,Morgan Chen
+2021-07-03,Milk Bar,Midwest,Milwaukee,Wholesale,2,4.22,8.47,Morgan Chen
+2021-07-04,Milk Bar,Midwest,Milwaukee,Retail,1,3.78,3.89,Morgan Chen
+2021-07-04,Dark Bar 70%,Midwest,Milwaukee,Retail,1,4.02,4.1,Jordan Kim
+2021-07-05,Truffle Assortment,Midwest,Columbus,Retail,3,12.75,38.71,Riley Patel
+2021-07-05,Sea Salt Caramel,South,Houston,Retail,2,5.76,11.93,Taylor Brooks
+2021-07-06,Sea Salt Caramel,West,Phoenix,Retail,1,5.48,5.54,Taylor Brooks
+2021-07-06,Almond Crunch,Midwest,Milwaukee,Wholesale,1,5.1,5.2,Avery Lee
+2021-07-06,Milk Bar,West,Los Angeles,Retail,3,4.03,11.94,Taylor Brooks
+2021-07-07,Almond Crunch,South,Miami,Retail,4,4.86,19.22,Taylor Brooks
+2021-07-07,Sea Salt Caramel,West,Seattle,Retail,2,5.48,11.04,Avery Lee
+2021-07-07,Sea Salt Caramel,Midwest,Minneapolis,Online,2,5.65,11.2,Jordan Kim
+2021-07-07,Sea Salt Caramel,Northeast,Baltimore,Online,1,5.61,5.61,Jamie Rivera
+2021-07-07,Dark Bar 70%,Northeast,Boston,Retail,7,4.79,34.37,Riley Patel
+2021-07-07,Sea Salt Caramel,West,Phoenix,Wholesale,3,5.94,17.53,Jamie Rivera
+2021-07-07,Almond Crunch,Midwest,Chicago,Wholesale,6,5.07,31.57,Casey Diaz
+2021-07-07,Dark Bar 70%,Northeast,Boston,Retail,17,4.83,83.98,Taylor Brooks
+2021-07-07,Almond Crunch,South,Miami,Retail,5,4.78,24.16,Riley Patel
+2021-07-07,Hazelnut Praline,Midwest,Detroit,Online,3,5.74,17.61,Morgan Chen
+2021-07-08,Milk Bar,Midwest,Columbus,Retail,7,4.19,29.09,Avery Lee
+2021-07-08,Milk Bar,West,San Diego,Online,5,4.87,25.0,Avery Lee
+2021-07-08,Hazelnut Praline,Midwest,Minneapolis,Online,4,6.34,26.54,Morgan Chen
+2021-07-08,Sea Salt Caramel,Northeast,Providence,Retail,1,4.82,4.84,Riley Patel
+2021-07-09,Truffle Assortment,South,Charlotte,Online,1,11.33,11.24,Morgan Chen
+2021-07-09,Milk Bar,Northeast,Baltimore,Retail,5,3.51,17.97,Morgan Chen
+2021-07-09,Dark Bar 70%,Midwest,Columbus,Retail,2,3.96,7.95,Avery Lee
+2021-07-10,Sea Salt Caramel,Northeast,Baltimore,Retail,3,6.21,19.19,Avery Lee
+2021-07-10,Hazelnut Praline,Northeast,Baltimore,Retail,1,6.93,6.88,Jamie Rivera
+2021-07-10,Almond Crunch,South,Charlotte,Wholesale,3,5.42,15.94,Jordan Kim
+2021-07-10,Hazelnut Praline,West,Phoenix,Online,4,5.09,20.01,Casey Diaz
+2021-07-11,Milk Bar,West,San Diego,Online,3,3.5,10.54,Avery Lee
+2021-07-11,Sea Salt Caramel,South,Atlanta,Online,3,5.13,15.58,Morgan Chen
+2021-07-11,Almond Crunch,West,Seattle,Retail,2,4.83,9.82,Jamie Rivera
+2021-07-11,Sea Salt Caramel,Northeast,Baltimore,Online,3,5.96,18.23,Jamie Rivera
+2021-07-12,Almond Crunch,Northeast,Baltimore,Online,2,4.33,9.02,Riley Patel
+2021-07-13,Milk Bar,South,Atlanta,Online,1,4.03,3.98,Jordan Kim
+2021-07-13,Hazelnut Praline,West,Los Angeles,Retail,3,6.28,19.14,Taylor Brooks
+2021-07-14,Truffle Assortment,Midwest,Detroit,Online,2,11.51,22.99,Morgan Chen
+2021-07-14,Dark Bar 70%,Northeast,Boston,Retail,5,5.02,25.6,Avery Lee
+2021-07-14,Hazelnut Praline,South,Houston,Online,6,5.88,35.19,Morgan Chen
+2021-07-15,Dark Bar 70%,Northeast,Boston,Retail,1,4.52,4.47,Jamie Rivera
+2021-07-15,Hazelnut Praline,West,San Diego,Online,7,6.3,46.27,Morgan Chen
+2021-07-15,Sea Salt Caramel,Northeast,Providence,Online,5,5.74,29.4,Riley Patel
+2021-07-16,Dark Bar 70%,South,Charlotte,Online,2,4.39,8.66,Riley Patel
+2021-07-16,Milk Bar,Northeast,New York,Wholesale,2,3.52,7.03,Avery Lee
+2021-07-16,Almond Crunch,South,Atlanta,Online,5,4.68,23.51,Morgan Chen
+2021-07-16,Milk Bar,West,Seattle,Online,9,3.59,33.61,Riley Patel
+2021-07-16,Almond Crunch,West,Las Vegas,Online,2,5.15,10.62,Jamie Rivera
+2021-07-17,Hazelnut Praline,West,Los Angeles,Wholesale,4,5.8,23.35,Jordan Kim
+2021-07-17,Truffle Assortment,Midwest,Chicago,Retail,3,12.79,37.69,Riley Patel
+2021-07-17,Sea Salt Caramel,Midwest,Columbus,Online,3,5.35,16.2,Avery Lee
+2021-07-17,Dark Bar 70%,West,Los Angeles,Retail,3,4.26,13.0,Avery Lee
+2021-07-18,Hazelnut Praline,Northeast,Baltimore,Retail,2,6.08,12.18,Morgan Chen
+2021-07-19,Almond Crunch,West,San Diego,Retail,8,4.86,38.16,Taylor Brooks
+2021-07-19,Sea Salt Caramel,Midwest,Chicago,Retail,1,6.04,6.16,Riley Patel
+2021-07-19,Almond Crunch,West,Seattle,Online,8,4.97,39.9,Jamie Rivera
+2021-07-19,Truffle Assortment,Northeast,Boston,Online,4,12.85,51.53,Morgan Chen
+2021-07-19,Sea Salt Caramel,West,Los Angeles,Retail,3,5.79,17.48,Riley Patel
+2021-07-20,Dark Bar 70%,Northeast,Baltimore,Online,2,4.31,8.46,Taylor Brooks
+2021-07-21,Hazelnut Praline,South,Dallas,Online,6,5.61,34.43,Riley Patel
+2021-07-23,Almond Crunch,South,Atlanta,Online,2,4.95,10.14,Avery Lee
+2021-07-23,Dark Bar 70%,Midwest,Minneapolis,Online,2,4.45,8.94,Jamie Rivera
+2021-07-23,Dark Bar 70%,South,Houston,Retail,2,4.12,8.46,Jamie Rivera
+2021-07-24,Sea Salt Caramel,South,Miami,Online,2,5.22,10.54,Jordan Kim
+2021-07-25,Dark Bar 70%,South,Miami,Retail,2,4.43,9.19,Taylor Brooks
+2021-07-25,Milk Bar,West,Seattle,Online,1,3.75,3.72,Jordan Kim
+2021-07-25,Hazelnut Praline,South,Atlanta,Retail,4,4.99,19.75,Avery Lee
+2021-07-26,Hazelnut Praline,Midwest,Minneapolis,Online,8,6.57,52.65,Taylor Brooks
+2021-07-26,Almond Crunch,Midwest,Columbus,Retail,1,5.42,5.46,Jamie Rivera
+2021-07-26,Almond Crunch,South,Dallas,Online,1,4.86,5.01,Taylor Brooks
+2021-07-26,Dark Bar 70%,Midwest,Minneapolis,Online,1,4.77,4.83,Morgan Chen
+2021-07-26,Dark Bar 70%,Northeast,Philadelphia,Online,4,4.58,18.21,Avery Lee
+2021-07-26,Hazelnut Praline,Northeast,Boston,Retail,1,5.81,5.75,Avery Lee
+2021-07-27,Milk Bar,South,Charlotte,Wholesale,2,4.02,8.27,Taylor Brooks
+2021-07-27,Hazelnut Praline,West,Las Vegas,Retail,3,7.33,21.76,Casey Diaz
+2021-07-27,Hazelnut Praline,Midwest,Minneapolis,Online,1,6.16,6.1,Jamie Rivera
+2021-07-27,Sea Salt Caramel,South,Atlanta,Online,4,4.82,20.22,Jamie Rivera
+2021-07-28,Truffle Assortment,South,Dallas,Retail,5,11.26,58.59,Taylor Brooks
+2021-07-29,Truffle Assortment,South,Charlotte,Online,2,12.35,24.25,Riley Patel
+2021-07-29,Hazelnut Praline,West,Las Vegas,Online,3,6.74,20.61,Jamie Rivera
+2021-07-29,Hazelnut Praline,Northeast,Boston,Retail,2,5.54,10.99,Casey Diaz
+2021-07-30,Sea Salt Caramel,West,Los Angeles,Online,1,5.58,5.78,Avery Lee
+2021-07-30,Sea Salt Caramel,West,San Diego,Online,3,6.11,18.98,Jordan Kim
+2021-07-30,Dark Bar 70%,Northeast,Baltimore,Online,7,4.13,28.55,Avery Lee
+2021-07-30,Dark Bar 70%,South,Houston,Online,3,4.41,13.36,Riley Patel
+2021-07-30,Dark Bar 70%,Midwest,Minneapolis,Wholesale,5,4.27,21.02,Riley Patel
+2021-07-30,Milk Bar,Midwest,Milwaukee,Retail,1,4.82,4.75,Taylor Brooks
+2021-07-31,Milk Bar,Northeast,New York,Retail,2,3.75,7.49,Jamie Rivera
+2021-08-01,Truffle Assortment,West,San Diego,Retail,1,11.33,11.89,Morgan Chen
+2021-08-01,Hazelnut Praline,South,Miami,Retail,2,6.13,12.44,Avery Lee
+2021-08-01,Truffle Assortment,Midwest,Detroit,Retail,9,10.58,94.82,Riley Patel
+2021-08-02,Almond Crunch,Midwest,Milwaukee,Online,1,4.2,4.38,Jordan Kim
+2021-08-02,Hazelnut Praline,Northeast,New York,Online,2,6.54,12.95,Avery Lee
+2021-08-02,Milk Bar,Midwest,Minneapolis,Wholesale,7,4.36,30.33,Morgan Chen
+2021-08-02,Almond Crunch,Northeast,New York,Online,2,5.03,10.32,Jamie Rivera
+2021-08-03,Sea Salt Caramel,Northeast,Boston,Wholesale,7,5.77,39.87,Avery Lee
+2021-08-03,Almond Crunch,West,Las Vegas,Online,6,5.35,32.36,Casey Diaz
+2021-08-03,Sea Salt Caramel,Midwest,Milwaukee,Online,6,6.53,41.04,Jordan Kim
+2021-08-03,Dark Bar 70%,South,Houston,Online,1,4.2,4.22,Morgan Chen
+2021-08-05,Dark Bar 70%,South,Dallas,Wholesale,2,5.08,10.2,Riley Patel
+2021-08-05,Truffle Assortment,South,Dallas,Retail,4,12.53,49.29,Casey Diaz
+2021-08-05,Almond Crunch,Midwest,Milwaukee,Retail,2,4.77,9.44,Taylor Brooks
+2021-08-05,Hazelnut Praline,South,Miami,Retail,1,7.33,7.27,Riley Patel
+2021-08-06,Hazelnut Praline,West,San Diego,Wholesale,7,6.12,42.75,Riley Patel
+2021-08-06,Hazelnut Praline,South,Dallas,Retail,3,5.96,18.1,Jordan Kim
+2021-08-06,Almond Crunch,South,Atlanta,Retail,4,4.97,20.25,Jordan Kim
+2021-08-06,Sea Salt Caramel,South,Dallas,Online,3,5.74,16.97,Morgan Chen
+2021-08-06,Milk Bar,Northeast,Boston,Wholesale,2,3.89,7.79,Riley Patel
+2021-08-07,Sea Salt Caramel,Northeast,Boston,Online,1,5.25,5.19,Casey Diaz
+2021-08-07,Truffle Assortment,South,Atlanta,Retail,1,12.75,12.6,Avery Lee
+2021-08-08,Sea Salt Caramel,Northeast,New York,Online,6,4.76,29.89,Avery Lee
+2021-08-08,Truffle Assortment,Northeast,Philadelphia,Retail,1,11.9,12.37,Jamie Rivera
+2021-08-08,Truffle Assortment,West,Las Vegas,Online,2,12.02,23.93,Jamie Rivera
+2021-08-08,Milk Bar,West,Los Angeles,Retail,1,4.54,4.74,Jordan Kim
+2021-08-08,Sea Salt Caramel,West,Seattle,Retail,7,5.37,39.46,Taylor Brooks
+2021-08-09,Milk Bar,South,Miami,Online,1,3.85,3.84,Avery Lee
+2021-08-09,Truffle Assortment,Northeast,Providence,Retail,3,12.17,36.69,Jordan Kim
+2021-08-09,Almond Crunch,Northeast,New York,Retail,1,4.67,4.63,Riley Patel
+2021-08-11,Hazelnut Praline,Midwest,Minneapolis,Online,4,6.43,26.82,Morgan Chen
+2021-08-11,Dark Bar 70%,Northeast,Baltimore,Retail,1,4.41,4.39,Jamie Rivera
+2021-08-12,Milk Bar,Northeast,New York,Retail,4,4.14,17.14,Taylor Brooks
+2021-08-12,Milk Bar,South,Atlanta,Online,1,3.86,3.83,Jordan Kim
+2021-08-12,Sea Salt Caramel,West,San Diego,Retail,4,5.08,20.83,Riley Patel
+2021-08-13,Sea Salt Caramel,Midwest,Columbus,Retail,5,6.0,29.9,Jordan Kim
+2021-08-13,Hazelnut Praline,Northeast,New York,Online,4,5.38,21.55,Jordan Kim
+2021-08-13,Hazelnut Praline,Midwest,Milwaukee,Wholesale,7,4.9,34.41,Riley Patel
+2021-08-14,Milk Bar,West,San Diego,Online,3,3.61,10.84,Avery Lee
+2021-08-15,Almond Crunch,Midwest,Milwaukee,Online,4,5.14,20.21,Taylor Brooks
+2021-08-15,Dark Bar 70%,South,Dallas,Online,1,4.54,4.54,Riley Patel
+2021-08-15,Truffle Assortment,South,Houston,Retail,8,12.05,96.5,Casey Diaz
+2021-08-16,Hazelnut Praline,Northeast,Providence,Wholesale,4,5.18,20.88,Casey Diaz
+2021-08-16,Sea Salt Caramel,South,Houston,Retail,4,5.39,22.53,Riley Patel
+2021-08-17,Truffle Assortment,West,Seattle,Online,3,13.14,38.87,Jamie Rivera
+2021-08-17,Almond Crunch,West,Phoenix,Online,3,5.08,15.98,Jordan Kim
+2021-08-17,Dark Bar 70%,South,Dallas,Retail,5,4.99,24.82,Jamie Rivera
+2021-08-17,Dark Bar 70%,Northeast,Philadelphia,Retail,7,4.04,28.94,Casey Diaz
+2021-08-18,Sea Salt Caramel,West,Los Angeles,Online,1,5.86,6.07,Jordan Kim
+2021-08-18,Sea Salt Caramel,Midwest,Columbus,Retail,3,5.3,15.62,Morgan Chen
+2021-08-18,Sea Salt Caramel,South,Dallas,Wholesale,6,5.19,32.57,Riley Patel
+2021-08-18,Almond Crunch,West,Las Vegas,Retail,1,4.89,4.96,Jamie Rivera
+2021-08-19,Truffle Assortment,West,San Diego,Retail,1,11.35,11.43,Jordan Kim
+2021-08-19,Dark Bar 70%,South,Houston,Online,3,3.9,12.24,Jamie Rivera
+2021-08-19,Dark Bar 70%,Midwest,Minneapolis,Online,2,4.57,9.55,Taylor Brooks
+2021-08-20,Sea Salt Caramel,Midwest,Milwaukee,Retail,3,5.25,15.98,Jordan Kim
+2021-08-20,Almond Crunch,Midwest,Columbus,Retail,3,5.15,15.14,Jordan Kim
+2021-08-20,Almond Crunch,South,Atlanta,Retail,1,4.91,5.05,Jamie Rivera
+2021-08-21,Sea Salt Caramel,Northeast,Philadelphia,Online,1,5.91,5.95,Jamie Rivera
+2021-08-21,Sea Salt Caramel,West,Las Vegas,Online,7,4.68,33.43,Riley Patel
+2021-08-21,Milk Bar,Midwest,Minneapolis,Retail,4,4.41,18.0,Avery Lee
+2021-08-22,Milk Bar,Midwest,Minneapolis,Online,2,3.49,6.95,Jordan Kim
+2021-08-22,Milk Bar,South,Charlotte,Online,1,4.01,4.17,Morgan Chen
+2021-08-22,Hazelnut Praline,Midwest,Detroit,Online,2,6.27,12.39,Taylor Brooks
+2021-08-22,Dark Bar 70%,Midwest,Minneapolis,Retail,1,4.32,4.24,Jamie Rivera
+2021-08-23,Almond Crunch,South,Dallas,Online,2,4.46,9.13,Morgan Chen
+2021-08-23,Truffle Assortment,Midwest,Chicago,Online,2,12.0,23.7,Riley Patel
+2021-08-23,Sea Salt Caramel,South,Houston,Online,9,5.7,53.34,Jamie Rivera
+2021-08-24,Dark Bar 70%,West,Seattle,Online,4,3.99,16.2,Jordan Kim
+2021-08-24,Dark Bar 70%,West,Los Angeles,Online,2,4.65,9.75,Taylor Brooks
+2021-08-24,Dark Bar 70%,South,Miami,Online,4,4.85,19.76,Jordan Kim
+2021-08-25,Almond Crunch,South,Atlanta,Wholesale,4,4.83,19.43,Avery Lee
+2021-08-25,Dark Bar 70%,Northeast,Boston,Retail,2,3.91,7.75,Avery Lee
+2021-08-25,Dark Bar 70%,Northeast,Providence,Online,8,4.35,35.48,Casey Diaz
+2021-08-25,Dark Bar 70%,West,Los Angeles,Online,4,4.05,15.94,Avery Lee
+2021-08-26,Almond Crunch,Midwest,Minneapolis,Online,2,5.0,10.34,Morgan Chen
+2021-08-26,Milk Bar,West,Seattle,Online,1,3.43,3.52,Avery Lee
+2021-08-26,Dark Bar 70%,Northeast,Baltimore,Online,3,4.51,14.19,Jordan Kim
+2021-08-27,Dark Bar 70%,West,Las Vegas,Online,6,4.59,27.11,Casey Diaz
+2021-08-27,Sea Salt Caramel,West,Seattle,Online,1,5.14,5.18,Morgan Chen
+2021-08-27,Almond Crunch,Northeast,Providence,Retail,2,4.9,9.75,Jamie Rivera
+2021-08-27,Milk Bar,Midwest,Minneapolis,Retail,4,3.56,14.03,Taylor Brooks
+2021-08-27,Sea Salt Caramel,Northeast,Providence,Online,7,5.44,38.06,Taylor Brooks
+2021-08-27,Sea Salt Caramel,West,San Diego,Online,2,6.2,12.9,Jamie Rivera
+2021-08-27,Almond Crunch,South,Dallas,Retail,2,4.56,9.41,Jordan Kim
+2021-08-28,Sea Salt Caramel,Midwest,Minneapolis,Online,2,5.64,11.44,Jordan Kim
+2021-08-28,Milk Bar,West,Las Vegas,Online,3,4.39,13.44,Taylor Brooks
+2021-08-28,Truffle Assortment,West,Los Angeles,Retail,5,10.11,50.56,Taylor Brooks
+2021-08-28,Dark Bar 70%,Midwest,Detroit,Retail,3,4.81,14.64,Morgan Chen
+2021-08-29,Almond Crunch,South,Dallas,Online,12,5.01,61.95,Taylor Brooks
+2021-08-30,Milk Bar,Northeast,Boston,Retail,5,3.58,17.65,Avery Lee
+2021-08-30,Almond Crunch,Midwest,Minneapolis,Online,7,4.78,34.08,Jordan Kim
+2021-08-30,Truffle Assortment,South,Dallas,Retail,5,10.26,52.5,Avery Lee
+2021-08-30,Hazelnut Praline,Midwest,Milwaukee,Online,5,6.41,33.26,Taylor Brooks
+2021-08-30,Almond Crunch,West,Los Angeles,Online,9,5.61,52.33,Riley Patel
+2021-08-30,Truffle Assortment,Northeast,Boston,Online,6,11.87,72.37,Taylor Brooks
+2021-08-30,Sea Salt Caramel,West,Las Vegas,Online,5,6.18,32.09,Avery Lee
+2021-08-31,Milk Bar,Northeast,Providence,Retail,10,3.67,37.09,Morgan Chen
+2021-09-01,Dark Bar 70%,Northeast,New York,Online,6,4.56,28.48,Morgan Chen
+2021-09-01,Hazelnut Praline,Midwest,Detroit,Retail,3,6.18,19.13,Riley Patel
+2021-09-02,Sea Salt Caramel,Midwest,Columbus,Online,2,5.86,11.72,Casey Diaz
+2021-09-02,Truffle Assortment,Northeast,Philadelphia,Wholesale,6,11.0,65.44,Avery Lee
+2021-09-02,Dark Bar 70%,South,Charlotte,Wholesale,2,4.43,9.0,Casey Diaz
+2021-09-02,Truffle Assortment,Northeast,New York,Retail,1,13.57,13.59,Jamie Rivera
+2021-09-02,Sea Salt Caramel,Midwest,Minneapolis,Retail,8,5.15,42.07,Taylor Brooks
+2021-09-02,Milk Bar,Northeast,Philadelphia,Retail,1,3.86,3.83,Riley Patel
+2021-09-03,Dark Bar 70%,Northeast,Providence,Online,4,4.41,17.52,Morgan Chen
+2021-09-03,Milk Bar,Midwest,Detroit,Online,3,4.07,12.11,Avery Lee
+2021-09-03,Milk Bar,Northeast,Providence,Retail,4,3.8,15.66,Taylor Brooks
+2021-09-04,Almond Crunch,Northeast,Philadelphia,Retail,4,5.1,20.82,Jamie Rivera
+2021-09-04,Dark Bar 70%,West,Los Angeles,Retail,3,4.48,13.56,Taylor Brooks
+2021-09-05,Dark Bar 70%,West,Seattle,Online,1,4.26,4.4,Jordan Kim
+2021-09-06,Dark Bar 70%,Northeast,Providence,Online,2,4.79,9.75,Jordan Kim
+2021-09-07,Sea Salt Caramel,Midwest,Chicago,Online,1,5.42,5.59,Morgan Chen
+2021-09-07,Hazelnut Praline,Northeast,New York,Retail,1,6.12,6.21,Jamie Rivera
+2021-09-08,Hazelnut Praline,Midwest,Columbus,Online,2,5.18,10.73,Jamie Rivera
+2021-09-10,Dark Bar 70%,Midwest,Columbus,Wholesale,3,5.17,16.18,Casey Diaz
+2021-09-11,Hazelnut Praline,West,Las Vegas,Wholesale,3,5.44,17.04,Casey Diaz
+2021-09-11,Milk Bar,South,Dallas,Retail,2,3.47,7.16,Casey Diaz
+2021-09-11,Dark Bar 70%,South,Charlotte,Online,1,4.02,4.12,Casey Diaz
+2021-09-11,Almond Crunch,Northeast,New York,Wholesale,5,4.42,21.76,Morgan Chen
+2021-09-11,Hazelnut Praline,Northeast,Boston,Retail,4,5.84,22.92,Taylor Brooks
+2021-09-12,Hazelnut Praline,Northeast,Baltimore,Online,1,5.64,5.67,Morgan Chen
+2021-09-12,Milk Bar,Northeast,New York,Retail,2,4.03,8.08,Jordan Kim
+2021-09-12,Hazelnut Praline,South,Houston,Retail,3,6.6,20.55,Taylor Brooks
+2021-09-12,Almond Crunch,West,San Diego,Wholesale,3,4.65,14.49,Casey Diaz
+2021-09-12,Milk Bar,West,Seattle,Retail,11,3.5,39.53,Jordan Kim
+2021-09-12,Sea Salt Caramel,South,Houston,Online,3,6.11,18.29,Jordan Kim
+2021-09-13,Hazelnut Praline,Northeast,Philadelphia,Wholesale,5,4.56,23.37,Jordan Kim
+2021-09-13,Dark Bar 70%,South,Charlotte,Retail,5,4.95,25.04,Taylor Brooks
+2021-09-13,Sea Salt Caramel,West,Seattle,Retail,5,5.61,27.75,Jordan Kim
+2021-09-13,Truffle Assortment,West,San Diego,Online,3,12.37,36.59,Jamie Rivera
+2021-09-13,Truffle Assortment,West,Los Angeles,Online,1,10.26,10.71,Taylor Brooks
+2021-09-13,Sea Salt Caramel,Midwest,Milwaukee,Online,1,5.57,5.84,Morgan Chen
+2021-09-13,Dark Bar 70%,West,Seattle,Wholesale,1,4.57,4.53,Casey Diaz
+2021-09-13,Sea Salt Caramel,Midwest,Minneapolis,Retail,3,5.19,15.42,Morgan Chen
+2021-09-13,Hazelnut Praline,South,Dallas,Wholesale,3,5.51,16.69,Morgan Chen
+2021-09-14,Sea Salt Caramel,South,Houston,Online,3,5.75,17.61,Jordan Kim
+2021-09-14,Hazelnut Praline,West,Las Vegas,Online,11,5.62,62.05,Casey Diaz
+2021-09-14,Milk Bar,Midwest,Detroit,Online,7,4.16,30.55,Jamie Rivera
+2021-09-15,Milk Bar,South,Houston,Online,1,4.72,4.9,Casey Diaz
+2021-09-15,Dark Bar 70%,Midwest,Detroit,Online,7,4.0,29.26,Morgan Chen
+2021-09-15,Hazelnut Praline,Midwest,Columbus,Wholesale,8,6.67,55.47,Taylor Brooks
+2021-09-15,Sea Salt Caramel,West,Las Vegas,Retail,6,5.71,34.32,Jordan Kim
+2021-09-15,Truffle Assortment,West,Phoenix,Online,3,12.19,38.07,Morgan Chen
+2021-09-15,Almond Crunch,South,Houston,Retail,2,5.26,10.35,Taylor Brooks
+2021-09-15,Hazelnut Praline,South,Atlanta,Retail,2,6.21,12.26,Jamie Rivera
+2021-09-15,Milk Bar,South,Houston,Retail,2,3.79,7.93,Avery Lee
+2021-09-15,Hazelnut Praline,Midwest,Milwaukee,Wholesale,1,6.13,6.04,Jordan Kim
+2021-09-16,Milk Bar,South,Dallas,Online,2,3.54,7.2,Avery Lee
+2021-09-16,Milk Bar,South,Atlanta,Online,2,4.11,8.59,Jamie Rivera
+2021-09-16,Sea Salt Caramel,West,Seattle,Wholesale,2,4.91,9.76,Jordan Kim
+2021-09-16,Almond Crunch,West,Las Vegas,Online,3,5.36,16.6,Avery Lee
+2021-09-17,Hazelnut Praline,Northeast,Philadelphia,Retail,6,5.82,35.62,Jamie Rivera
+2021-09-18,Hazelnut Praline,Midwest,Detroit,Online,2,6.58,13.3,Casey Diaz
+2021-09-18,Almond Crunch,Midwest,Minneapolis,Online,9,4.99,44.27,Riley Patel
+2021-09-19,Sea Salt Caramel,Midwest,Milwaukee,Retail,1,5.15,5.16,Taylor Brooks
+2021-09-19,Milk Bar,South,Charlotte,Online,4,3.73,14.88,Casey Diaz
+2021-09-19,Almond Crunch,Northeast,Boston,Retail,3,4.95,14.62,Taylor Brooks
+2021-09-19,Almond Crunch,West,Los Angeles,Online,4,4.9,19.5,Jordan Kim
+2021-09-19,Dark Bar 70%,South,Charlotte,Wholesale,1,4.41,4.5,Jordan Kim
+2021-09-19,Truffle Assortment,Northeast,Baltimore,Wholesale,3,9.59,29.28,Jordan Kim
+2021-09-20,Truffle Assortment,South,Houston,Online,2,12.26,25.41,Jamie Rivera
+2021-09-21,Truffle Assortment,Midwest,Chicago,Online,1,12.97,13.35,Riley Patel
+2021-09-21,Truffle Assortment,Northeast,Philadelphia,Online,5,12.06,62.47,Jordan Kim
+2021-09-21,Truffle Assortment,South,Dallas,Retail,3,12.97,38.42,Morgan Chen
+2021-09-22,Sea Salt Caramel,Northeast,New York,Retail,2,6.2,12.6,Taylor Brooks
+2021-09-22,Hazelnut Praline,Midwest,Columbus,Retail,1,6.04,6.02,Taylor Brooks
+2021-09-23,Sea Salt Caramel,South,Dallas,Online,3,5.74,17.26,Riley Patel
+2021-09-23,Dark Bar 70%,Northeast,Baltimore,Retail,3,4.5,13.51,Casey Diaz
+2021-09-23,Milk Bar,Midwest,Detroit,Retail,2,3.82,7.55,Jamie Rivera
+2021-09-23,Hazelnut Praline,West,Phoenix,Online,5,6.35,33.1,Avery Lee
+2021-09-24,Truffle Assortment,South,Miami,Online,4,13.08,54.74,Morgan Chen
+2021-09-25,Sea Salt Caramel,Midwest,Milwaukee,Retail,1,5.66,5.71,Riley Patel
+2021-09-25,Milk Bar,West,San Diego,Retail,4,4.16,17.32,Riley Patel
+2021-09-25,Dark Bar 70%,South,Atlanta,Online,2,4.38,8.7,Riley Patel
+2021-09-25,Milk Bar,South,Dallas,Retail,5,4.47,22.37,Casey Diaz
+2021-09-25,Sea Salt Caramel,South,Miami,Online,3,5.04,15.8,Avery Lee
+2021-09-25,Hazelnut Praline,West,Phoenix,Online,5,6.01,31.19,Casey Diaz
+2021-09-26,Sea Salt Caramel,West,Los Angeles,Retail,1,5.76,5.99,Casey Diaz
+2021-09-26,Truffle Assortment,Midwest,Columbus,Online,5,10.81,55.19,Riley Patel
+2021-09-26,Dark Bar 70%,South,Dallas,Retail,2,5.0,9.99,Jamie Rivera
+2021-09-26,Dark Bar 70%,West,Seattle,Retail,4,4.5,17.83,Riley Patel
+2021-09-26,Sea Salt Caramel,South,Charlotte,Online,7,4.83,35.46,Jamie Rivera
+2021-09-26,Dark Bar 70%,South,Houston,Retail,3,4.16,12.52,Jordan Kim
+2021-09-27,Milk Bar,West,Phoenix,Online,11,4.05,45.15,Jordan Kim
+2021-09-28,Hazelnut Praline,South,Miami,Online,3,5.81,18.05,Riley Patel
+2021-09-28,Hazelnut Praline,South,Charlotte,Retail,3,6.58,19.61,Taylor Brooks
+2021-09-28,Almond Crunch,Northeast,Philadelphia,Online,2,5.35,11.16,Riley Patel
+2021-09-28,Milk Bar,West,Los Angeles,Online,13,4.15,55.4,Taylor Brooks
+2021-09-28,Sea Salt Caramel,Midwest,Detroit,Wholesale,5,6.8,33.4,Jordan Kim
+2021-09-28,Almond Crunch,West,Seattle,Retail,1,5.71,5.88,Casey Diaz
+2021-09-29,Sea Salt Caramel,South,Atlanta,Wholesale,1,5.4,5.64,Avery Lee
+2021-09-29,Almond Crunch,Northeast,New York,Online,2,5.26,10.93,Riley Patel
+2021-09-29,Hazelnut Praline,South,Charlotte,Retail,2,6.04,11.97,Jamie Rivera
+2021-09-29,Dark Bar 70%,Northeast,Baltimore,Retail,4,4.36,18.11,Casey Diaz
+2021-09-30,Milk Bar,West,Los Angeles,Retail,3,3.99,12.01,Jordan Kim
+2021-09-30,Milk Bar,Northeast,Boston,Wholesale,1,4.29,4.5,Jamie Rivera
+2021-09-30,Truffle Assortment,West,Seattle,Online,3,12.89,37.99,Jamie Rivera
+2021-09-30,Hazelnut Praline,South,Charlotte,Online,14,6.27,87.58,Avery Lee
+2021-09-30,Truffle Assortment,Midwest,Milwaukee,Online,7,11.62,80.67,Riley Patel
+2021-09-30,Almond Crunch,Midwest,Columbus,Retail,2,4.76,9.62,Jordan Kim
+2021-09-30,Almond Crunch,Midwest,Chicago,Retail,1,4.82,4.74,Riley Patel
+2021-09-30,Milk Bar,South,Houston,Wholesale,2,3.7,7.38,Jamie Rivera
+2021-10-02,Sea Salt Caramel,West,Los Angeles,Online,1,5.48,5.74,Jamie Rivera
+2021-10-02,Dark Bar 70%,West,Seattle,Online,8,4.5,36.06,Morgan Chen
+2021-10-02,Milk Bar,West,Seattle,Retail,4,4.54,18.24,Morgan Chen
+2021-10-03,Truffle Assortment,West,Phoenix,Online,4,12.7,53.23,Casey Diaz
+2021-10-04,Hazelnut Praline,South,Atlanta,Retail,3,5.18,15.57,Taylor Brooks
+2021-10-04,Dark Bar 70%,South,Dallas,Online,4,4.27,16.83,Jordan Kim
+2021-10-04,Sea Salt Caramel,Midwest,Milwaukee,Online,4,4.43,17.42,Avery Lee
+2021-10-05,Truffle Assortment,Midwest,Milwaukee,Online,3,12.62,38.44,Riley Patel
+2021-10-05,Almond Crunch,West,Las Vegas,Online,8,4.74,37.86,Casey Diaz
+2021-10-05,Dark Bar 70%,Midwest,Chicago,Wholesale,4,4.0,16.11,Avery Lee
+2021-10-05,Sea Salt Caramel,West,Phoenix,Retail,2,5.27,10.95,Jordan Kim
+2021-10-06,Sea Salt Caramel,Midwest,Chicago,Retail,4,5.29,20.78,Riley Patel
+2021-10-07,Truffle Assortment,Midwest,Columbus,Online,1,12.2,12.37,Avery Lee
+2021-10-07,Milk Bar,West,Los Angeles,Online,1,4.36,4.52,Taylor Brooks
+2021-10-07,Almond Crunch,West,Los Angeles,Online,7,5.78,41.13,Jamie Rivera
+2021-10-07,Dark Bar 70%,South,Atlanta,Retail,4,3.89,15.63,Morgan Chen
+2021-10-08,Sea Salt Caramel,Midwest,Columbus,Wholesale,2,4.5,9.22,Riley Patel
+2021-10-08,Truffle Assortment,South,Dallas,Online,2,11.58,24.21,Taylor Brooks
+2021-10-08,Sea Salt Caramel,Midwest,Minneapolis,Retail,5,5.83,29.04,Riley Patel
+2021-10-08,Milk Bar,West,San Diego,Retail,3,3.22,10.05,Morgan Chen
+2021-10-08,Milk Bar,Northeast,Baltimore,Retail,2,4.22,8.77,Riley Patel
+2021-10-09,Truffle Assortment,South,Miami,Retail,5,12.32,64.25,Jamie Rivera
+2021-10-09,Milk Bar,West,San Diego,Retail,3,4.34,12.95,Avery Lee
+2021-10-09,Milk Bar,West,San Diego,Online,2,3.62,7.31,Jordan Kim
+2021-10-09,Dark Bar 70%,Midwest,Minneapolis,Online,2,3.67,7.4,Jordan Kim
+2021-10-10,Sea Salt Caramel,South,Miami,Online,2,5.29,10.6,Casey Diaz
+2021-10-11,Truffle Assortment,West,Phoenix,Online,2,14.06,28.05,Riley Patel
+2021-10-11,Truffle Assortment,Northeast,New York,Online,2,12.8,25.9,Casey Diaz
+2021-10-12,Milk Bar,Midwest,Detroit,Online,5,4.43,22.39,Riley Patel
+2021-10-12,Sea Salt Caramel,Midwest,Detroit,Retail,3,5.0,14.82,Jordan Kim
+2021-10-13,Truffle Assortment,South,Houston,Online,2,13.94,28.81,Casey Diaz
+2021-10-13,Truffle Assortment,South,Miami,Retail,4,12.42,49.09,Morgan Chen
+2021-10-13,Almond Crunch,Midwest,Minneapolis,Wholesale,1,5.1,5.35,Jordan Kim
+2021-10-13,Hazelnut Praline,Midwest,Columbus,Online,5,6.02,31.16,Taylor Brooks
+2021-10-14,Almond Crunch,Midwest,Milwaukee,Online,4,4.69,18.78,Riley Patel
+2021-10-14,Milk Bar,South,Charlotte,Retail,2,4.19,8.25,Jamie Rivera
+2021-10-15,Sea Salt Caramel,West,San Diego,Online,1,5.42,5.61,Casey Diaz
+2021-10-15,Milk Bar,Midwest,Chicago,Retail,3,3.72,11.52,Riley Patel
+2021-10-16,Hazelnut Praline,Northeast,Providence,Online,3,5.09,15.25,Casey Diaz
+2021-10-16,Hazelnut Praline,West,Phoenix,Online,2,6.45,12.79,Riley Patel
+2021-10-16,Hazelnut Praline,South,Miami,Online,6,5.54,33.84,Jamie Rivera
+2021-10-16,Truffle Assortment,West,San Diego,Retail,7,12.19,89.4,Taylor Brooks
+2021-10-16,Almond Crunch,West,Phoenix,Online,5,4.07,21.15,Jordan Kim
+2021-10-17,Dark Bar 70%,West,Las Vegas,Retail,8,5.07,40.81,Jordan Kim
+2021-10-17,Dark Bar 70%,Midwest,Detroit,Online,3,4.27,12.8,Avery Lee
+2021-10-18,Hazelnut Praline,West,Las Vegas,Retail,3,6.3,18.8,Taylor Brooks
+2021-10-18,Sea Salt Caramel,Midwest,Detroit,Retail,5,5.26,25.82,Morgan Chen
+2021-10-19,Sea Salt Caramel,West,Las Vegas,Wholesale,4,5.26,21.59,Avery Lee
+2021-10-19,Almond Crunch,West,Las Vegas,Online,2,5.06,10.12,Morgan Chen
+2021-10-19,Sea Salt Caramel,West,Las Vegas,Online,6,5.42,33.2,Casey Diaz
+2021-10-19,Dark Bar 70%,South,Houston,Online,10,4.21,43.51,Jordan Kim
+2021-10-19,Sea Salt Caramel,South,Atlanta,Online,3,6.37,19.79,Casey Diaz
+2021-10-20,Truffle Assortment,West,San Diego,Online,1,11.64,11.59,Taylor Brooks
+2021-10-20,Milk Bar,South,Miami,Retail,6,4.07,24.68,Jordan Kim
+2021-10-21,Almond Crunch,Midwest,Columbus,Online,2,4.52,8.93,Jamie Rivera
+2021-10-21,Milk Bar,South,Charlotte,Online,4,3.93,15.55,Riley Patel
+2021-10-21,Almond Crunch,South,Dallas,Online,3,4.9,15.12,Morgan Chen
+2021-10-21,Dark Bar 70%,South,Miami,Wholesale,2,4.51,9.31,Casey Diaz
+2021-10-21,Truffle Assortment,South,Houston,Retail,1,12.79,12.82,Casey Diaz
+2021-10-21,Sea Salt Caramel,Midwest,Columbus,Online,2,5.56,11.53,Jordan Kim
+2021-10-22,Hazelnut Praline,Northeast,Philadelphia,Online,3,5.26,16.17,Jamie Rivera
+2021-10-22,Dark Bar 70%,Midwest,Chicago,Online,6,4.77,29.6,Taylor Brooks
+2021-10-22,Milk Bar,West,Seattle,Wholesale,19,4.06,76.64,Casey Diaz
+2021-10-22,Sea Salt Caramel,West,Seattle,Online,3,6.08,18.82,Jordan Kim
+2021-10-22,Hazelnut Praline,West,Phoenix,Online,1,6.17,6.11,Avery Lee
+2021-10-22,Almond Crunch,South,Atlanta,Retail,9,5.01,44.92,Avery Lee
+2021-10-23,Milk Bar,West,San Diego,Wholesale,4,3.64,15.15,Casey Diaz
+2021-10-23,Hazelnut Praline,Northeast,Baltimore,Retail,3,6.98,20.92,Avery Lee
+2021-10-24,Truffle Assortment,West,San Diego,Retail,1,11.67,11.92,Avery Lee
+2021-10-24,Sea Salt Caramel,West,Phoenix,Online,3,4.96,15.31,Casey Diaz
+2021-10-25,Truffle Assortment,Northeast,Philadelphia,Online,3,11.66,35.71,Riley Patel
+2021-10-25,Sea Salt Caramel,Northeast,Boston,Online,3,5.12,15.11,Taylor Brooks
+2021-10-25,Truffle Assortment,West,Las Vegas,Online,2,11.04,22.54,Riley Patel
+2021-10-25,Sea Salt Caramel,South,Dallas,Online,4,5.88,24.42,Jamie Rivera
+2021-10-25,Milk Bar,South,Houston,Wholesale,3,3.49,10.33,Morgan Chen
+2021-10-25,Truffle Assortment,South,Miami,Online,3,11.44,35.15,Casey Diaz
+2021-10-26,Almond Crunch,Northeast,Providence,Online,3,5.12,16.03,Jordan Kim
+2021-10-26,Dark Bar 70%,Midwest,Chicago,Retail,2,4.2,8.54,Taylor Brooks
+2021-10-26,Hazelnut Praline,West,Los Angeles,Online,3,6.14,18.89,Jamie Rivera
+2021-10-27,Milk Bar,Northeast,Philadelphia,Online,5,3.89,19.29,Morgan Chen
+2021-10-27,Milk Bar,Midwest,Minneapolis,Online,9,4.07,37.71,Avery Lee
+2021-10-27,Dark Bar 70%,South,Charlotte,Online,1,4.18,4.2,Morgan Chen
+2021-10-27,Milk Bar,Northeast,New York,Online,1,3.39,3.54,Jamie Rivera
+2021-10-27,Almond Crunch,West,Las Vegas,Retail,2,4.72,9.47,Taylor Brooks
+2021-10-27,Milk Bar,Northeast,Boston,Wholesale,2,3.38,6.9,Jordan Kim
+2021-10-28,Almond Crunch,South,Houston,Retail,3,4.81,14.4,Avery Lee
+2021-10-28,Sea Salt Caramel,West,Phoenix,Retail,1,5.82,5.96,Avery Lee
+2021-10-29,Dark Bar 70%,South,Atlanta,Retail,1,4.14,4.17,Casey Diaz
+2021-10-29,Truffle Assortment,West,Seattle,Retail,3,12.63,37.67,Riley Patel
+2021-10-29,Truffle Assortment,South,Atlanta,Wholesale,6,11.12,67.22,Casey Diaz
+2021-10-29,Sea Salt Caramel,Northeast,Boston,Online,16,6.22,103.44,Taylor Brooks
+2021-10-29,Almond Crunch,Northeast,Baltimore,Online,5,4.67,23.76,Casey Diaz
+2021-10-29,Sea Salt Caramel,Midwest,Milwaukee,Wholesale,4,5.57,22.78,Jamie Rivera
+2021-10-29,Milk Bar,Midwest,Chicago,Online,2,4.83,9.65,Taylor Brooks
+2021-10-30,Sea Salt Caramel,Northeast,Boston,Retail,4,4.82,19.74,Riley Patel
+2021-10-30,Truffle Assortment,Midwest,Milwaukee,Online,3,10.64,31.85,Morgan Chen
+2021-10-30,Truffle Assortment,Midwest,Columbus,Online,2,11.47,23.15,Avery Lee
+2021-10-30,Hazelnut Praline,Midwest,Columbus,Retail,2,6.79,13.34,Casey Diaz
+2021-10-30,Dark Bar 70%,Midwest,Columbus,Online,1,4.82,4.92,Riley Patel
+2021-10-31,Hazelnut Praline,Midwest,Columbus,Retail,11,6.6,71.83,Jamie Rivera
+2021-10-31,Sea Salt Caramel,Northeast,Boston,Wholesale,3,5.73,17.85,Jamie Rivera
+2021-10-31,Milk Bar,Midwest,Columbus,Retail,11,4.34,48.87,Morgan Chen
+2021-11-01,Sea Salt Caramel,South,Charlotte,Retail,5,5.01,25.77,Jamie Rivera
+2021-11-01,Truffle Assortment,West,Los Angeles,Wholesale,4,13.74,57.21,Avery Lee
+2021-11-02,Hazelnut Praline,South,Dallas,Online,3,5.9,18.11,Taylor Brooks
+2021-11-02,Truffle Assortment,Midwest,Minneapolis,Retail,7,12.4,87.98,Casey Diaz
+2021-11-02,Dark Bar 70%,West,Seattle,Retail,2,4.34,9.1,Avery Lee
+2021-11-02,Hazelnut Praline,South,Atlanta,Online,2,5.24,10.81,Casey Diaz
+2021-11-02,Hazelnut Praline,West,Seattle,Wholesale,1,5.92,6.19,Casey Diaz
+2021-11-03,Truffle Assortment,West,Los Angeles,Online,2,11.62,23.87,Jamie Rivera
+2021-11-03,Truffle Assortment,West,San Diego,Retail,5,12.41,62.55,Jamie Rivera
+2021-11-03,Sea Salt Caramel,South,Miami,Wholesale,11,5.14,56.16,Avery Lee
+2021-11-04,Truffle Assortment,South,Houston,Retail,2,11.25,23.51,Riley Patel
+2021-11-04,Sea Salt Caramel,Northeast,Philadelphia,Wholesale,6,5.29,32.05,Morgan Chen
+2021-11-05,Dark Bar 70%,Midwest,Milwaukee,Wholesale,7,3.97,27.86,Casey Diaz
+2021-11-05,Sea Salt Caramel,South,Dallas,Retail,3,5.3,16.1,Morgan Chen
+2021-11-05,Dark Bar 70%,West,Phoenix,Online,7,4.35,30.6,Morgan Chen
+2021-11-05,Milk Bar,South,Miami,Online,1,4.03,4.21,Avery Lee
+2021-11-06,Almond Crunch,Northeast,Providence,Retail,3,5.33,16.48,Jordan Kim
+2021-11-06,Sea Salt Caramel,Northeast,Providence,Online,5,5.44,28.53,Casey Diaz
+2021-11-06,Milk Bar,South,Miami,Online,3,4.03,12.15,Taylor Brooks
+2021-11-06,Truffle Assortment,Midwest,Milwaukee,Online,5,10.71,53.6,Morgan Chen
+2021-11-06,Truffle Assortment,Midwest,Minneapolis,Online,1,12.52,12.9,Casey Diaz
+2021-11-06,Sea Salt Caramel,West,Los Angeles,Online,4,5.13,21.23,Jordan Kim
+2021-11-06,Sea Salt Caramel,Midwest,Milwaukee,Retail,5,4.93,24.16,Jamie Rivera
+2021-11-07,Hazelnut Praline,Northeast,Providence,Retail,2,6.07,12.53,Taylor Brooks
+2021-11-07,Milk Bar,West,Seattle,Online,4,3.4,13.5,Morgan Chen
+2021-11-07,Milk Bar,Midwest,Columbus,Online,3,4.14,12.83,Morgan Chen
+2021-11-08,Dark Bar 70%,Northeast,Philadelphia,Retail,5,4.37,22.02,Taylor Brooks
+2021-11-09,Dark Bar 70%,Northeast,Baltimore,Online,3,4.53,14.18,Jordan Kim
+2021-11-09,Dark Bar 70%,West,Los Angeles,Online,1,3.94,4.11,Avery Lee
+2021-11-09,Milk Bar,Northeast,Boston,Online,5,4.3,21.91,Morgan Chen
+2021-11-09,Almond Crunch,West,Las Vegas,Retail,1,5.25,5.51,Taylor Brooks
+2021-11-09,Sea Salt Caramel,South,Dallas,Online,3,5.6,16.86,Casey Diaz
+2021-11-10,Sea Salt Caramel,West,San Diego,Retail,1,5.54,5.7,Morgan Chen
+2021-11-10,Milk Bar,Northeast,New York,Online,4,3.64,14.51,Riley Patel
+2021-11-10,Dark Bar 70%,West,Phoenix,Wholesale,5,4.91,25.51,Avery Lee
+2021-11-11,Hazelnut Praline,Midwest,Columbus,Online,3,6.56,19.29,Avery Lee
+2021-11-11,Dark Bar 70%,West,Phoenix,Online,7,4.71,33.69,Avery Lee
+2021-11-11,Almond Crunch,South,Charlotte,Online,7,4.42,30.43,Casey Diaz
+2021-11-12,Truffle Assortment,South,Charlotte,Online,4,11.07,43.58,Jordan Kim
+2021-11-12,Hazelnut Praline,Midwest,Milwaukee,Wholesale,5,6.29,32.0,Morgan Chen
+2021-11-12,Sea Salt Caramel,West,Phoenix,Retail,6,6.22,38.19,Riley Patel
+2021-11-12,Dark Bar 70%,South,Charlotte,Wholesale,1,3.25,3.32,Jordan Kim
+2021-11-13,Hazelnut Praline,South,Atlanta,Retail,3,5.99,17.96,Avery Lee
+2021-11-13,Hazelnut Praline,West,San Diego,Retail,5,5.25,26.32,Jamie Rivera
+2021-11-14,Almond Crunch,Midwest,Minneapolis,Online,1,5.27,5.31,Taylor Brooks
+2021-11-14,Milk Bar,West,Los Angeles,Online,4,3.85,16.03,Jamie Rivera
+2021-11-14,Dark Bar 70%,West,Phoenix,Retail,1,4.37,4.58,Jamie Rivera
+2021-11-15,Hazelnut Praline,Northeast,Baltimore,Online,5,5.94,30.25,Taylor Brooks
+2021-11-15,Hazelnut Praline,Midwest,Columbus,Online,2,5.93,12.19,Taylor Brooks
+2021-11-15,Sea Salt Caramel,West,Seattle,Retail,2,6.36,12.82,Riley Patel
+2021-11-15,Sea Salt Caramel,Northeast,Philadelphia,Retail,3,5.34,16.08,Avery Lee
+2021-11-15,Almond Crunch,West,Los Angeles,Online,6,4.45,27.77,Morgan Chen
+2021-11-16,Truffle Assortment,South,Miami,Retail,3,12.49,37.21,Morgan Chen
+2021-11-16,Almond Crunch,Midwest,Minneapolis,Retail,4,5.07,20.93,Jamie Rivera
+2021-11-16,Hazelnut Praline,Midwest,Columbus,Online,4,4.76,18.92,Morgan Chen
+2021-11-16,Milk Bar,West,Seattle,Retail,7,4.29,29.53,Taylor Brooks
+2021-11-16,Sea Salt Caramel,South,Charlotte,Online,4,5.84,24.24,Avery Lee
+2021-11-16,Dark Bar 70%,Midwest,Chicago,Retail,4,4.36,17.64,Avery Lee
+2021-11-16,Dark Bar 70%,Northeast,Baltimore,Retail,6,4.86,29.38,Riley Patel
+2021-11-17,Hazelnut Praline,Midwest,Detroit,Online,3,6.46,20.22,Morgan Chen
+2021-11-17,Milk Bar,Northeast,Philadelphia,Retail,5,4.05,20.61,Avery Lee
+2021-11-17,Truffle Assortment,West,San Diego,Retail,2,10.45,21.3,Riley Patel
+2021-11-17,Truffle Assortment,Northeast,Providence,Wholesale,1,11.24,11.18,Morgan Chen
+2021-11-18,Sea Salt Caramel,West,Los Angeles,Wholesale,3,4.56,13.72,Jordan Kim
+2021-11-18,Almond Crunch,West,Seattle,Retail,4,5.0,20.91,Taylor Brooks
+2021-11-18,Truffle Assortment,West,San Diego,Online,1,12.33,12.26,Taylor Brooks
+2021-11-18,Dark Bar 70%,Northeast,New York,Online,2,5.09,10.13,Riley Patel
+2021-11-19,Sea Salt Caramel,West,Phoenix,Retail,5,5.85,30.32,Jordan Kim
+2021-11-19,Dark Bar 70%,Midwest,Minneapolis,Retail,5,4.81,23.8,Avery Lee
+2021-11-19,Hazelnut Praline,West,San Diego,Wholesale,1,6.39,6.61,Riley Patel
+2021-11-19,Hazelnut Praline,West,Los Angeles,Online,6,5.1,31.67,Jamie Rivera
+2021-11-20,Milk Bar,Midwest,Detroit,Wholesale,4,3.84,15.31,Avery Lee
+2021-11-20,Almond Crunch,West,Phoenix,Online,3,4.99,15.07,Taylor Brooks
+2021-11-20,Truffle Assortment,Midwest,Chicago,Online,2,10.26,20.73,Jamie Rivera
+2021-11-20,Sea Salt Caramel,Northeast,New York,Retail,2,5.76,11.89,Riley Patel
+2021-11-21,Sea Salt Caramel,Northeast,Philadelphia,Retail,3,5.94,18.03,Casey Diaz
+2021-11-21,Milk Bar,West,Las Vegas,Online,9,4.23,38.87,Taylor Brooks
+2021-11-21,Milk Bar,South,Atlanta,Online,2,3.55,6.96,Avery Lee
+2021-11-21,Milk Bar,Northeast,Boston,Retail,4,3.91,16.06,Jamie Rivera
+2021-11-21,Almond Crunch,South,Atlanta,Retail,2,4.78,9.57,Jamie Rivera
+2021-11-21,Hazelnut Praline,West,Phoenix,Online,4,5.97,23.55,Jamie Rivera
+2021-11-21,Dark Bar 70%,West,Phoenix,Online,4,4.37,17.45,Taylor Brooks
+2021-11-21,Sea Salt Caramel,West,Seattle,Online,3,5.88,18.33,Riley Patel
+2021-11-22,Truffle Assortment,South,Charlotte,Retail,8,13.17,106.7,Avery Lee
+2021-11-22,Truffle Assortment,Midwest,Columbus,Retail,1,12.07,11.94,Avery Lee
+2021-11-22,Dark Bar 70%,Midwest,Chicago,Retail,5,3.99,20.82,Riley Patel
+2021-11-22,Sea Salt Caramel,Northeast,Boston,Wholesale,6,6.15,36.49,Taylor Brooks
+2021-11-22,Truffle Assortment,Northeast,Boston,Retail,7,13.08,94.31,Jordan Kim
+2021-11-23,Almond Crunch,South,Miami,Online,2,5.26,10.95,Avery Lee
+2021-11-24,Dark Bar 70%,Northeast,Providence,Online,4,5.12,21.22,Avery Lee
+2021-11-24,Milk Bar,Northeast,Boston,Retail,1,3.65,3.75,Riley Patel
+2021-11-24,Milk Bar,West,Phoenix,Online,1,3.91,3.85,Jamie Rivera
+2021-11-24,Truffle Assortment,South,Atlanta,Retail,5,12.99,66.73,Taylor Brooks
+2021-11-25,Hazelnut Praline,Midwest,Detroit,Online,2,6.27,12.45,Morgan Chen
+2021-11-25,Sea Salt Caramel,South,Dallas,Online,1,6.51,6.68,Jordan Kim
+2021-11-26,Dark Bar 70%,West,Las Vegas,Online,6,4.27,25.21,Jordan Kim
+2021-11-26,Truffle Assortment,Northeast,Providence,Online,2,11.76,24.61,Jordan Kim
+2021-11-27,Milk Bar,South,Miami,Online,2,3.85,7.96,Taylor Brooks
+2021-11-27,Almond Crunch,Midwest,Milwaukee,Wholesale,3,4.78,14.62,Jamie Rivera
+2021-11-27,Milk Bar,West,Seattle,Retail,5,4.64,22.76,Riley Patel
+2021-11-28,Sea Salt Caramel,Northeast,Baltimore,Online,2,5.09,10.03,Casey Diaz
+2021-11-28,Sea Salt Caramel,Midwest,Columbus,Wholesale,1,5.01,5.19,Jamie Rivera
+2021-11-28,Hazelnut Praline,Northeast,Baltimore,Online,3,5.85,18.06,Riley Patel
+2021-11-28,Milk Bar,Northeast,Baltimore,Retail,7,4.19,30.58,Taylor Brooks
+2021-11-29,Milk Bar,Midwest,Milwaukee,Wholesale,1,3.64,3.62,Jordan Kim
+2021-11-29,Sea Salt Caramel,South,Miami,Retail,8,5.72,46.24,Morgan Chen
+2021-11-29,Milk Bar,Midwest,Columbus,Retail,9,3.69,33.24,Jamie Rivera
+2021-12-01,Truffle Assortment,West,San Diego,Retail,5,13.58,67.47,Jamie Rivera
+2021-12-01,Sea Salt Caramel,Northeast,Baltimore,Online,8,5.19,41.15,Jamie Rivera
+2021-12-02,Sea Salt Caramel,Midwest,Chicago,Retail,2,5.74,11.82,Jordan Kim
+2021-12-02,Milk Bar,Northeast,Boston,Online,9,4.51,39.97,Taylor Brooks
+2021-12-02,Almond Crunch,West,San Diego,Wholesale,7,5.27,38.23,Jamie Rivera
+2021-12-02,Hazelnut Praline,Northeast,Boston,Retail,2,5.99,11.77,Casey Diaz
+2021-12-02,Milk Bar,Northeast,New York,Retail,6,4.31,25.52,Avery Lee
+2021-12-02,Almond Crunch,Northeast,Baltimore,Retail,5,5.48,27.68,Riley Patel
+2021-12-03,Hazelnut Praline,Midwest,Minneapolis,Online,4,6.28,25.14,Casey Diaz
+2021-12-03,Truffle Assortment,South,Atlanta,Online,5,11.89,60.54,Jamie Rivera
+2021-12-03,Dark Bar 70%,Northeast,Baltimore,Online,2,4.45,8.83,Jamie Rivera
+2021-12-03,Dark Bar 70%,Midwest,Minneapolis,Online,2,3.86,7.73,Riley Patel
+2021-12-03,Sea Salt Caramel,Northeast,Baltimore,Online,2,6.08,12.71,Casey Diaz
+2021-12-04,Truffle Assortment,Midwest,Columbus,Retail,1,11.43,11.72,Jamie Rivera
+2021-12-05,Hazelnut Praline,South,Charlotte,Online,1,6.58,6.79,Morgan Chen
+2021-12-05,Sea Salt Caramel,West,Phoenix,Wholesale,7,5.21,35.95,Avery Lee
+2021-12-05,Sea Salt Caramel,South,Atlanta,Online,2,5.46,10.88,Avery Lee
+2021-12-05,Hazelnut Praline,West,Los Angeles,Retail,3,6.09,18.77,Taylor Brooks
+2021-12-06,Almond Crunch,West,Los Angeles,Online,1,5.09,5.24,Morgan Chen
+2021-12-06,Milk Bar,South,Miami,Retail,1,3.88,3.85,Jamie Rivera
+2021-12-07,Hazelnut Praline,Northeast,New York,Online,8,5.83,48.02,Taylor Brooks
+2021-12-07,Hazelnut Praline,Northeast,Providence,Online,2,6.16,12.25,Jordan Kim
+2021-12-08,Dark Bar 70%,South,Miami,Online,1,4.03,4.11,Casey Diaz
+2021-12-08,Sea Salt Caramel,South,Atlanta,Retail,6,5.92,36.0,Morgan Chen
+2021-12-08,Dark Bar 70%,West,Seattle,Retail,2,4.41,8.9,Casey Diaz
+2021-12-08,Milk Bar,West,Phoenix,Retail,4,3.97,15.57,Avery Lee
+2021-12-08,Milk Bar,Northeast,New York,Online,3,4.1,12.87,Taylor Brooks
+2021-12-09,Dark Bar 70%,Northeast,Baltimore,Wholesale,2,4.14,8.13,Jamie Rivera
+2021-12-09,Sea Salt Caramel,Midwest,Chicago,Online,2,5.66,11.87,Jamie Rivera
+2021-12-09,Hazelnut Praline,Northeast,New York,Retail,2,6.36,13.27,Jordan Kim
+2021-12-09,Almond Crunch,Northeast,Philadelphia,Retail,7,5.06,35.17,Jordan Kim
+2021-12-09,Dark Bar 70%,Northeast,Providence,Wholesale,4,4.85,19.84,Jordan Kim
+2021-12-10,Dark Bar 70%,Northeast,Boston,Retail,9,4.94,45.6,Riley Patel
+2021-12-10,Dark Bar 70%,Northeast,Boston,Retail,2,4.44,9.25,Taylor Brooks
+2021-12-10,Hazelnut Praline,Midwest,Columbus,Online,1,5.86,6.08,Casey Diaz
+2021-12-10,Dark Bar 70%,South,Dallas,Online,6,4.39,26.27,Taylor Brooks
+2021-12-10,Sea Salt Caramel,Northeast,New York,Online,6,6.44,40.37,Morgan Chen
+2021-12-10,Hazelnut Praline,Northeast,New York,Wholesale,2,6.12,12.35,Casey Diaz
+2021-12-11,Truffle Assortment,Midwest,Columbus,Online,2,12.14,25.39,Jamie Rivera
+2021-12-12,Truffle Assortment,Midwest,Minneapolis,Wholesale,5,11.16,55.2,Avery Lee
+2021-12-12,Truffle Assortment,South,Houston,Retail,2,11.74,24.2,Casey Diaz
+2021-12-12,Milk Bar,South,Charlotte,Retail,3,4.42,13.15,Riley Patel
+2021-12-13,Almond Crunch,Midwest,Minneapolis,Retail,3,4.91,15.32,Jordan Kim
+2021-12-13,Dark Bar 70%,Midwest,Minneapolis,Retail,7,4.32,30.95,Avery Lee
+2021-12-13,Almond Crunch,West,Seattle,Online,3,4.98,15.21,Avery Lee
+2021-12-14,Sea Salt Caramel,South,Houston,Online,4,4.66,19.33,Morgan Chen
+2021-12-14,Sea Salt Caramel,Midwest,Milwaukee,Online,9,4.77,43.72,Avery Lee
+2021-12-14,Milk Bar,Midwest,Chicago,Online,2,4.41,9.18,Riley Patel
+2021-12-15,Almond Crunch,Midwest,Chicago,Wholesale,2,5.94,12.36,Morgan Chen
+2021-12-16,Milk Bar,Midwest,Minneapolis,Wholesale,1,4.01,4.19,Jordan Kim
+2021-12-16,Milk Bar,Northeast,Baltimore,Online,1,3.81,3.95,Taylor Brooks
+2021-12-16,Sea Salt Caramel,Northeast,Baltimore,Online,3,4.61,14.32,Jordan Kim
+2021-12-16,Dark Bar 70%,Northeast,New York,Online,3,4.79,14.09,Riley Patel
+2021-12-18,Almond Crunch,South,Miami,Retail,1,5.58,5.54,Jordan Kim
+2021-12-18,Hazelnut Praline,Midwest,Milwaukee,Online,3,6.08,18.34,Morgan Chen
+2021-12-18,Sea Salt Caramel,West,Los Angeles,Online,1,5.44,5.56,Morgan Chen
+2021-12-18,Milk Bar,South,Atlanta,Online,5,4.57,22.42,Riley Patel
+2021-12-19,Truffle Assortment,West,Phoenix,Online,1,12.28,12.51,Riley Patel
+2021-12-20,Hazelnut Praline,Midwest,Chicago,Retail,1,6.12,6.05,Jamie Rivera
+2021-12-20,Hazelnut Praline,Northeast,New York,Retail,3,5.6,17.0,Avery Lee
+2021-12-21,Hazelnut Praline,Midwest,Detroit,Online,4,5.86,23.88,Morgan Chen
+2021-12-21,Sea Salt Caramel,Midwest,Columbus,Online,3,5.56,17.21,Riley Patel
+2021-12-21,Almond Crunch,Midwest,Milwaukee,Retail,5,4.64,23.47,Riley Patel
+2021-12-22,Almond Crunch,Midwest,Milwaukee,Retail,3,5.14,15.96,Morgan Chen
+2021-12-22,Hazelnut Praline,West,San Diego,Online,1,5.93,6.01,Taylor Brooks
+2021-12-22,Truffle Assortment,Northeast,New York,Retail,5,14.32,70.22,Casey Diaz
+2021-12-23,Dark Bar 70%,West,Phoenix,Online,6,4.89,29.7,Avery Lee
+2021-12-23,Almond Crunch,Northeast,Philadelphia,Online,2,4.45,9.2,Casey Diaz
+2021-12-23,Almond Crunch,West,San Diego,Online,4,4.87,19.85,Taylor Brooks
+2021-12-24,Sea Salt Caramel,Midwest,Detroit,Retail,2,5.85,11.53,Jamie Rivera
+2021-12-25,Dark Bar 70%,Northeast,New York,Retail,2,4.38,9.16,Avery Lee
+2021-12-25,Sea Salt Caramel,Northeast,Philadelphia,Online,1,5.22,5.35,Jordan Kim
+2021-12-25,Almond Crunch,South,Houston,Wholesale,3,4.65,14.22,Avery Lee
+2021-12-25,Sea Salt Caramel,West,San Diego,Retail,1,6.41,6.5,Taylor Brooks
+2021-12-25,Milk Bar,Midwest,Chicago,Retail,3,4.22,13.05,Jordan Kim
+2021-12-26,Sea Salt Caramel,Northeast,Boston,Retail,3,5.45,16.68,Morgan Chen
+2021-12-26,Milk Bar,Northeast,Baltimore,Wholesale,1,4.25,4.18,Avery Lee
+2021-12-26,Milk Bar,Northeast,New York,Online,5,4.31,21.97,Jamie Rivera
+2021-12-26,Dark Bar 70%,Midwest,Columbus,Online,4,4.63,19.05,Jordan Kim
+2021-12-27,Dark Bar 70%,Northeast,Boston,Retail,1,4.25,4.28,Avery Lee
+2021-12-27,Sea Salt Caramel,Northeast,Providence,Retail,4,5.97,23.48,Taylor Brooks
+2021-12-27,Hazelnut Praline,Northeast,New York,Online,3,5.71,16.96,Taylor Brooks
+2021-12-28,Truffle Assortment,West,Seattle,Retail,5,10.56,52.51,Casey Diaz
+2021-12-28,Truffle Assortment,Midwest,Milwaukee,Retail,1,12.26,12.07,Riley Patel
+2021-12-28,Hazelnut Praline,Midwest,Columbus,Online,5,5.88,29.4,Taylor Brooks
+2021-12-28,Almond Crunch,South,Houston,Online,15,4.56,69.41,Taylor Brooks
+2021-12-28,Hazelnut Praline,Midwest,Chicago,Retail,2,5.51,11.45,Taylor Brooks
+2021-12-28,Almond Crunch,Northeast,Philadelphia,Online,2,4.62,9.38,Taylor Brooks
+2021-12-29,Dark Bar 70%,West,San Diego,Retail,1,4.41,4.52,Riley Patel
+2021-12-30,Milk Bar,West,Seattle,Online,1,3.87,3.8,Jordan Kim
+2021-12-30,Milk Bar,Midwest,Milwaukee,Retail,6,4.03,24.87,Riley Patel
+2021-12-30,Dark Bar 70%,Midwest,Detroit,Retail,1,4.51,4.44,Jordan Kim
+2021-12-30,Sea Salt Caramel,Northeast,Boston,Wholesale,2,4.8,9.68,Jamie Rivera
+2021-12-30,Hazelnut Praline,West,Las Vegas,Retail,2,5.52,11.37,Morgan Chen
+2021-12-31,Almond Crunch,West,Phoenix,Retail,4,5.37,21.41,Jamie Rivera
+2021-12-31,Dark Bar 70%,West,Las Vegas,Retail,2,4.56,9.25,Avery Lee
+2021-12-31,Almond Crunch,West,Seattle,Online,2,4.78,9.49,Avery Lee
+2021-12-31,Dark Bar 70%,South,Miami,Retail,2,4.78,9.72,Morgan Chen
+2021-12-31,Sea Salt Caramel,West,San Diego,Wholesale,1,5.97,6.09,Riley Patel
+2021-12-31,Hazelnut Praline,Northeast,Providence,Online,3,5.98,18.57,Riley Patel
