@@ -4,11 +4,41 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jenna Saunders · Resume</title>
-  <meta name="description" content="Resume and portfolio site for Jenna Saunders — SVP-level leadership in data strategy, BI, Salesforce integrations, and IT operations.">
+  <meta name="description" content="Resume and portfolio site for Jenna Saunders — data & analytics, AI products, BI, and automation.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23000000'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-size='32' fill='white' font-family='system-ui, -apple-system, Segoe UI, Roboto, sans-serif'%3EJS%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="styles.css" as="style">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jenna Saunders",
+    "jobTitle": "IT Specialist",
+    "email": "mailto:jennifer.saunders@phoenix.edu",
+    "telephone": "+1-801-615-0589",
+    "url": "https://example.com",
+    "sameAs": ["https://www.linkedin.com/in/jsaun4321"]
+  }
+  </script>
 </head>
 <body>
+  <!-- Loading Animation -->
+  <div id="loading-curtains" class="loading-overlay">
+    <div class="curtain curtain-left">
+      <div class="curtain-pattern"></div>
+    </div>
+    <div class="curtain curtain-right">
+      <div class="curtain-pattern"></div>
+    </div>
+    <div class="loading-content">
+      <div class="loading-logo">JS</div>
+      <div class="loading-text">Welcome to Jenna's Portfolio</div>
+      <div class="loading-butterflies" id="butterflyContainer">
+        <!-- Butterflies will be generated dynamically -->
+      </div>
+    </div>
+  </div>
+
   <header class="site-header">
     <nav class="container nav">
       <a class="brand" href="#top" aria-label="Home">Jenna<span> Saunders</span></a>
@@ -18,75 +48,205 @@
         <a href="#experience" class="nav-link">Experience</a>
         <a href="#education" class="nav-link">Education</a>
         <a href="#contact" class="nav-link">Contact</a>
-        <a href="./dashboard.html" class="nav-link">Dashboard</a>
       </div>
       <div class="nav-actions">
-        <a class="btn" href="./resume_modern_fixed2.pdf" target="_blank" rel="noopener">Download PDF</a>
+        <button id="retriggerAnimation" class="btn-ghost" aria-label="Show butterfly animation">🦋</button>
+        <button id="themeToggle" class="btn-ghost" aria-label="Toggle dark theme"></button>
+        <a class="btn" href="./PresentingJennaSaunders7-9.pdf" download>Download PDF</a>
+        <a class="btn-gradient" href="./dashboard.html">Example Executive Dashboard</a>
       </div>
     </nav>
   </header>
 
   <main id="top" class="container">
-    <section class="hero">
-      <div class="hero-photo">
-        <img src="./photos/Jenna.jpg" alt="Jenna Saunders" class="profile-photo">
-      </div>
-      <div class="hero-text">
-        <h1>SVP · Data, Insights &amp; Enterprise Systems Leadership</h1>
-        <p class="tagline">
-          Doctor of Management (IST) Candidate · Researching best practices for enterprise AI adoption and governance · Proven leader in data strategy, BI, Salesforce integrations, and IT operations.
-        </p>
-        <div class="contact">
-          <a href="mailto:jennifer.saunders@phoenix.edu" class="chip">jennifer.saunders@phoenix.edu</a>
-          <a href="tel:+18016150589" class="chip">+1&nbsp;(801)&nbsp;615-0589</a>
-          <a href="https://www.linkedin.com/in/jsaun4321" class="chip" target="_blank" rel="noopener">LinkedIn</a>
+    <section class="hero" aria-label="Intro">
+      <div class="hero-content">
+        <div class="hero-photo">
+          <img src="./photos/Jenna.jpg" alt="Jenna Saunders" class="profile-photo">
+        </div>
+        <div class="hero-text">
+          <h1>IT Specialist · Data &amp; AI</h1>
+          <p class="tagline">
+            Educator, Analyst, and AI Enthusiast.
+          </p>
+          <div class="contact">
+            <a href="mailto:jennifer.saunders@phoenix.edu" class="chip">jennifer.saunders@phoenix.edu</a>
+            <a href="tel:+18016150589" class="chip">+1&nbsp;(801)&nbsp;615‑0589</a>
+            <a href="https://www.linkedin.com/in/jsaun4321" class="chip" target="_blank" rel="noopener">LinkedIn</a>
+            <button id="copyEmail" class="chip ghost" aria-label="Copy email">Copy email</button>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="skills" class="section">
-      <h2>Skills & Leadership</h2>
-      <ul class="bullets two-col">
-        <li>Executive dashboards & operating rhythms</li>
-        <li>Enterprise BI strategy & self‑service analytics</li>
-        <li>Salesforce as student lifecycle system; secure API design</li>
-        <li>Data quality, metric definitions, and KPI frameworks</li>
-        <li>AI/ML readiness & evidence‑based adoption</li>
-        <li>Training & enablement · Cost optimization & prioritization</li>
-      </ul>
+      <h2>Skills & Leadership Matrix</h2>
+      
+      <!-- Interactive Skills Matrix -->
+      <div class="skills-matrix">
+        <div class="skill-category">
+          <h3>Technical Skills</h3>
+          <div class="skill-grid">
+            <span class="skill-item" data-level="expert">Flowable</span>
+            <span class="skill-item" data-level="expert">Python</span>
+            <span class="skill-item" data-level="expert">Automation Anywhere</span>
+            <span class="skill-item" data-level="expert">Power BI / DAX</span>
+            <span class="skill-item" data-level="expert">AI Tooling</span>
+            <span class="skill-item" data-level="expert">Excel</span>
+            <span class="skill-item" data-level="expert">SQL</span>
+            <span class="skill-item" data-level="expert">Redshift</span>
+            <span class="skill-item" data-level="advanced">Salesforce</span>
+            <span class="skill-item" data-level="advanced">S3</span>
+            <span class="skill-item" data-level="advanced">Athena</span>
+            <span class="skill-item" data-level="advanced">JavaScript</span>
+            <span class="skill-item" data-level="advanced">Kafka</span>
+            <span class="skill-item" data-level="advanced">Terraform</span>
+            <span class="skill-item" data-level="advanced">Elastic Beanstalk</span>
+            <span class="skill-item" data-level="intermediate">AWS Bedrock</span>
+            <span class="skill-item" data-level="intermediate">AWS EventBridge</span>
+            <span class="skill-item" data-level="intermediate">AWS StepFunctions</span>
+            <span class="skill-item" data-level="intermediate">QuickSight</span>
+            <span class="skill-item" data-level="intermediate">Gremlin</span>
+            <span class="skill-item" data-level="intermediate">Informatica</span>
+            <span class="skill-item" data-level="intermediate">New Relic</span>
+            <span class="skill-item" data-level="intermediate">Gradio</span>
+            <span class="skill-item" data-level="intermediate">FastMCP</span>
+            <span class="skill-item" data-level="intermediate">Java</span>
+          </div>
+        </div>
 
+        <div class="skill-category">
+          <h3>Project Management</h3>
+          <div class="skill-grid">
+            <span class="skill-item" data-level="expert">Product Discovery & Delivery</span>
+            <span class="skill-item" data-level="expert">Cross-functional Teams</span>
+            <span class="skill-item" data-level="expert">Stakeholder Collaboration</span>
+            <span class="skill-item" data-level="expert">Problem Structuring</span>
+            <span class="skill-item" data-level="expert">Data-Informed Decision Making</span>
+            <span class="skill-item" data-level="expert">Risk Assessment</span>
+            <span class="skill-item" data-level="expert">Engineering Collaboration</span>
+            <span class="skill-item" data-level="expert">Leadership</span>
+            <span class="skill-item" data-level="advanced">Design Partnership</span>
+            <span class="skill-item" data-level="advanced">Business Acumen</span>
+            <span class="skill-item" data-level="advanced">Written Communication</span>
+            <span class="skill-item" data-level="intermediate">Finance & Operations</span>
+            <span class="skill-item" data-level="intermediate">Marketing Integration</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>AI & Analytics</h3>
+          <div class="skill-grid">
+            <span class="skill-item" data-level="expert">Advanced AI Training</span>
+            <span class="skill-item" data-level="expert">Data Analysis</span>
+            <span class="skill-item" data-level="expert">Business Intelligence</span>
+            <span class="skill-item" data-level="expert">Data Visualization</span>
+            <span class="skill-item" data-level="advanced">Machine Learning</span>
+            <span class="skill-item" data-level="advanced">Deep Learning</span>
+            <span class="skill-item" data-level="intermediate">Predictive Modeling</span>
+            <span class="skill-item" data-level="intermediate">Cosine Similarity</span>
+          </div>
+          <div class="analytics-projects">
+            <h4>Featured Analytics and AI Projects:</h4>
+            <ul>
+              <li><a href="https://app.powerbi.com/links/GCUTIhmWpK?ctid=b117deab-c106-4162-af4d-5546e79c6a0c&pbi_source=linkShare" target="_blank" rel="noopener">Student Tech Usage Dashboard</a> - Advanced analytics with innovative functions</li>
+              <li><a href="https://app.powerbi.com/Redirect?action=OpenReport&appId=efdb95bf-3e74-49ba-b0ec-78231d09e853&reportObjectId=0ce976d9-b725-4f46-9b8d-445cbfb667f8&ctid=b117deab-c106-4162-af4d-5546e79c6a0c&reportPage=ReportSectionb05a68b5b18ba935147c&pbi_source=appShareLink&portalSessionId=1de450d8-833b-4e54-bbb4-c80c9458109c" target="_blank" rel="noopener">W/F Forecasting Report</a> - Withdraw/Fail prediction analytics</li>
+              <li><a href="https://uopx.atlassian.net/wiki/x/DYDmsw" target="_blank" rel="noopener">AI Prompt Tester</a> - Multi-model Bedrock testing framework</li>
+              <li><a href="https://uopx.atlassian.net/wiki/x/VYAOvw" target="_blank" rel="noopener">AI Tutor Hack</a> - Led cross-team collaboration to create AI tutoring solution</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team Superpowers Section -->
       <div class="team-superpowers">
         <h3>Team Superpowers</h3>
         <div class="superpower-grid">
-          <div class="superpower-item"><div class="superpower-icon">🤝</div><h4>Governance Advocate</h4><p>Encourages alignment to standards and source‑of‑truth practices across Product, Student Success, Finance, and IT.</p></div>
-          <div class="superpower-item"><div class="superpower-icon">📊</div><h4>Source‑of‑Truth Builder</h4><p>Designs dashboards and pipelines that point back to authoritative sources to increase trust and decision speed.</p></div>
-          <div class="superpower-item"><div class="superpower-icon">🛡️</div><h4>Risk & Compliance Alignment</h4><p>Practical access, retention, and quality controls that improve reliability without slowing delivery.</p></div>
-          <div class="superpower-item"><div class="superpower-icon">🚀</div><h4>Scalable Systems</h4><p>Processes and automations that scale with growth; clear handoffs and documentation.</p></div>
-          <div class="superpower-item"><div class="superpower-icon">🎤</div><h4>Exec‑Ready Storytelling</h4><p>Concise, decision‑ready narratives for senior leaders.</p></div>
-          <div class="superpower-item"><div class="superpower-icon">🤖</div><h4>Strategic AI Readiness</h4><p>Guides when to use advanced AI vs. proven automation/ML, balancing innovation, cost, and stability.</p></div>
+          <div class="superpower-item">
+            <div class="superpower-icon">🤝</div>
+            <h4>Cross-Functional Coordination</h4>
+            <p>Led teams across IT and Data space - orchestrating complex multi-team initiatives. Created comprehensive <a href="https://app.powerbi.com/links/fjVSRH5blL?ctid=b117deab-c106-4162-af4d-5546e79c6a0c&pbi_source=linkShare&bookmarkGuid=97e2cde5-6dab-4aa9-a367-913b07e6d66c" target="_blank" rel="noopener">organizational intelligence dashboard</a> by interviewing tech leads across teams to map capabilities and project matching</p>
+          </div>
+          <div class="superpower-item">
+            <div class="superpower-icon">🎯</div>
+            <h4>Stakeholder Clarity Builder</h4>
+            <p>Transforms fuzzy initial descriptions into clear project solutions by deeply understanding stakeholder needs and crafting win-win outcomes</p>
+          </div>
+          <div class="superpower-item">
+            <div class="superpower-icon">⚡</div>
+            <h4>Personality Bridge Builder</h4>
+            <p>Expert at connecting with diverse personality types, especially skilled at drawing out introverted engineers and unlocking their hidden talents</p>
+          </div>
+          <div class="superpower-item">
+            <div class="superpower-icon">🛡️</div>
+            <h4>Risk Mitigation</h4>
+            <p>Reduced provider costs by 50% for IP Address Lookup System. Created <a href="https://apolloedu.sharepoint.com/:u:/r/sites/OfficeofStrategy/SitePages/S3-Bucket-Lifecycle-Rules-for-Savings.aspx?csf=1&web=1&e=WBHHgH" target="_blank" rel="noopener">AWS cost optimization analysis</a> identifying significant savings opportunities through S3 lifecycle rules</p>
+          </div>
+          <div class="superpower-item">
+            <div class="superpower-icon">🎤</div>
+            <h4>Presentation Excellence</h4>
+            <p>Delivered organizational training on <a href="https://apolloedu.sharepoint.com/:u:/r/sites/OfficeofStrategy/SitePages/Presentations-that-Rock.aspx?csf=1&web=1&e=135bfi" target="_blank" rel="noopener">"Presentations that Rock"</a> and co-presented <a href="https://apolloedu-my.sharepoint.com/:p:/g/personal/jennifer_saunders_phoenix_edu/EWbpkiLZvixAhSlFhPQTYMwBFYCtUy8O2_O4Yg8bA_GaGw?e=i7is6y" target="_blank" rel="noopener">MCP training course</a> at Technopalooza to all IT engineers</p>
+          </div>
+          <div class="superpower-item">
+            <div class="superpower-icon">🚀</div>
+            <h4>Innovation Catalyst</h4>
+            <p>Transforms "impossible" legacy processes into streamlined solutions using AI-assisted development and modern practices. Constantly generates ideas and collaboratively brings the best ones forward to help everyone succeed</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="projects" class="section">
       <h2>Selected Projects</h2>
-      <div class="grid">
-        <div class="card">IP Address Lookup System</div>
-        <div class="card">Team Assignment Automation</div>
-        <div class="card">EET CoFit App</div>
-        <div class="card">Address Change Licensure Automation</div>
-        <div class="card">W/F Forecasting in Power BI</div>
-        <div class="card">Alternative Credit UI Discovery</div>
-        <div class="card">Program Change Automation Hack</div>
-        <div class="card">Blackboard LTI Awards App</div>
-        <div class="card">Salesforce API for Alt Credit</div>
+      <div class="projects-container">
+        <div class="grid">
+          <article class="card project-card" data-project="IPAddressLookUpSystem">
+            <h3>IP Address Lookup System</h3>
+          </article>
+          <article class="card project-card" data-project="TeamAssignmentAutomation">
+            <h3>Team Assignment Automation</h3>
+          </article>
+          <article class="card project-card" data-project="EETCoFitApp">
+            <h3>EET CoFit App</h3>
+          </article>
+          <article class="card project-card" data-project="AddressChangeLicensureAutomation">
+            <h3>Address Change Licensure Automation</h3>
+          </article>
+          <article class="card project-card" data-project="WFForecastinginPowerBI">
+            <h3>W/F Forecasting in Power BI</h3>
+          </article>
+          <article class="card project-card" data-project="AlternativeCreditUIDiscovery">
+            <h3>Alternative Credit UI Discovery</h3>
+          </article>
+          <article class="card project-card" data-project="ProgramChangeAutomationHack">
+            <h3>Program Change Automation Hack</h3>
+          </article>
+          <article class="card project-card" data-project="BlackboardLTIAwardsApp">
+            <h3>Blackboard LTI Awards App</h3>
+          </article>
+          <article class="card project-card" data-project="SalesforceAPIAltCredit">
+            <h3>Salesforce API for Alt Credit</h3>
+          </article>
+        </div>
+        
+        <!-- Hover details container -->
+        <div class="project-details" id="projectDetails">
+          <div class="project-image">
+            <img id="projectImg" src="" alt="" />
+          </div>
+          <div class="project-description">
+            <p id="projectText"></p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="education" class="section">
       <h2>Education</h2>
       <ul class="edu">
-        <li><strong>Doctor of Management (IST emphasis)</strong> — In progress (Sep 2023–Aug 2026 expected)</li>
+        <li><strong>Doctor of Management (IST emphasis)</strong> — In progress (Sep 2023–Aug 2026 expected)
+          <br><em>Dissertation Research:</em> Best practices for selecting appropriate AI solutions vs. less complex alternatives in enterprise environments
+        </li>
         <li><strong>M.S., Business Intelligence &amp; Data Analytics</strong> — Dec 2021</li>
         <li><strong>Graduate Certificate, Artificial Intelligence</strong> — Dec 2021</li>
         <li><strong>MCP Fundamentals Certification</strong> — Jun 2025 (Hugging Face)</li>
@@ -96,6 +256,8 @@
       </ul>
     </section>
 
+    
+    
     <section id="experience" class="section">
       <h2>Experience</h2>
       <div class="timeline">
@@ -103,13 +265,13 @@
           <div class="when">May 2023 — Present</div>
           <div class="what">
             <h3>IT Engineer — University of Phoenix</h3>
+            <p>Advanced from data-focused responsibilities into an engineering role delivering analytics and automation.</p>
             <ul>
-              <li>Built and refreshed executive SPI dashboards used by 300+ managers monthly</li>
-              <li>Reduced reporting turnaround from days to hours via pipeline automation and standardized definitions</li>
-              <li>Partnered with Student Success and Product leaders on forecasting scenarios and leading indicators</li>
-              <li>Designed secure API access for Salesforce student‑tracking data</li>
-              <li>Negotiated new IP intelligence provider, increasing coverage and cutting costs by ~50%</li>
-              <li>Consolidated multi‑bot processes into streamlined automations tied to SharePoint workflows</li>
+              <li>Promoted from Data Engineer into IT Engineer based on delivery and cross-team leadership</li>
+              <li>Recognized with internal awards for solutions that <strong>cut manual processing by ~70%</strong></li>
+              <li>Refreshed SPI reporting consumed by <strong>300+ managers monthly</strong></li>
+              <li>Built executive dashboards that <strong>reduced reporting turnaround from days to hours</strong></li>
+              <li>Supported production environments with reliability-focused improvements</li>
             </ul>
           </div>
         </div>
@@ -117,22 +279,49 @@
           <div class="when">Mar 2025 — Present</div>
           <div class="what">
             <h3>Associate Faculty — University of Phoenix</h3>
-            <ul><li>Provide instruction to 25–30 students per cohort with consistently strong evaluations</li></ul>
+            <p>Part-time teaching role (GEN/201).</p>
+            <ul>
+              <li>Provide instruction to <strong>25–30 students per cohort</strong> with consistently strong evaluations</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="when">Jan 2023 — Sep 2023</div>
+          <div class="what">
+            <h3>Podcast Creator — Office ADHD</h3>
+            <p>Founded and produced a podcast featuring expert interviews.</p>
+            <ul>
+              <li>Built and maintained the website: <a href="https://www.officeadhd.com/" target="_blank" rel="noopener">officeadhd.com</a></li>
+              <li>Published <strong>30+ episodes</strong>, securing guest experts and growing an engaged listener base</li>
+            </ul>
           </div>
         </div>
         <div class="item">
           <div class="when">2016 — 2022</div>
           <div class="what">
-            <h3>Teaching & Academic Leadership — Multiple Schools</h3>
+            <h3>Teaching &amp; Academic Leadership — Multiple Schools</h3>
+            <p>Math Department Head, Lead Teacher, and classroom instructor across Math, Science, and Statistics.</p>
             <ul>
-              <li>Directed a high school math department supporting 400+ students</li>
-              <li>Trained new teachers on LMS platforms and standards</li>
-              <li>Created state‑standard‑aligned curricula; coached STEM, Chess, and Minecraft clubs</li>
+              <li>Directed a high school math department supporting <strong>400+ students</strong> (Utah Virtual Academy)</li>
+              <li>Trained new teachers on digital LMS platforms and classroom standards (Career Academy of Utah)</li>
+              <li>Created state-standard-aligned curricula; coached STEM, Chess, and Minecraft clubs</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="when">Jan 2020 — Oct 2020</div>
+          <div class="what">
+            <h3>Owner — Quail Gardens</h3>
+            <p>Entrepreneurial venture focused on specialty foods.</p>
+            <ul>
+              <li>Raised and marketed quail and microgreens to local buyers; built sales pipeline from scratch</li>
             </ul>
           </div>
         </div>
       </div>
     </section>
+
+
 
     <section id="contact" class="section">
       <h2>Contact</h2>
@@ -143,6 +332,12 @@
       </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Jenna Saunders · Built with HTML5/CSS/JS · Deployed on GitHub Pages</small>
+    </div>
+  </footer>
 
   <script src="script.js"></script>
 </body>
