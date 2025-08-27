@@ -1,24 +1,31 @@
 // Butterfly Animation System
 const ButterflyAnimation = {
-  playShineAndSound(loadingOverlay) {
-    const logo = loadingOverlay.querySelector('.loading-logo');
-    if (logo) {
-      logo.classList.remove('shine');
-      void logo.offsetWidth; // restart CSS animation
-      logo.classList.add('shine');
-    }
-    const audio = new Audio('sounds/bling.mp3');
-    audio.preload = 'auto';
-    audio.volume = 1.0;
-    audio.play().catch(() => {
-      const resume = () => {
-        audio.play().catch(()=>{});
-        window.removeEventListener('pointerdown', resume, { once: true });
-      };
-      window.addEventListener('pointerdown', resume, { once: true });
-    });
-  },
   colors: ['blue', 'purple', 'pink', 'yellow', 'orange', 'green', 'sparkle', 'flower'],
+
+  _audio: null,
+  _ensureAudio() {
+    if (!this._audio) {
+      try {
+        this._audio = new Audio('sounds/bling.mp3');
+        this._audio.preload = 'auto';
+        this._audio.volume = 0.6;
+      } catch(e) {
+        console.warn('Audio init failed', e);
+      }
+    }
+  },
+  playSfx() {
+    try {
+      this._ensureAudio();
+      if (this._audio) {
+        this._audio.currentTime = 0;
+        const p = this._audio.play();
+        if (p && typeof p.catch === 'function') { p.catch(()=>{}); }
+      }
+    } catch(e) {
+      console.warn('Audio play failed', e);
+    }
+  },
   
   createButterfly(delay = 0, startY = 0) {
     const butterfly = document.createElement('div');
@@ -44,12 +51,31 @@ const ButterflyAnimation = {
     return butterfly;
   },
   
-  runCompleteAnimation() {
-    // Prepare audio (attempt autoplay; fall back to user gesture if blocked)
-    const audio = new Audio('sounds/bling.mp3');
-    audio.preload = 'auto';
-    audio.volume = 1.0;
-
+  
+  runAnimationOn(loadingOverlay) {
+    // Generate butterflies
+    const container = loadingOverlay.querySelector('#butterflyContainer');
+    if (container) {
+      // Moderate count for performance
+      this.generateButterflySwarm(container, 120);
+    }
+    // Try sound
+    this.playSfx();
+    // Start curtains
+    setTimeout(() => {
+      loadingOverlay.classList.add('opening');
+    }, 1500);
+    // Hide & remove
+    setTimeout(() => {
+      loadingOverlay.classList.add('hidden');
+      setTimeout(() => {
+        if (loadingOverlay && loadingOverlay.parentNode) {
+          loadingOverlay.remove();
+        }
+      }, 1200);
+    }, 4500);
+  },
+runCompleteAnimation() {
     console.log('Running complete butterfly animation sequence');
     
     // Always create a fresh overlay for consistent behavior
@@ -60,7 +86,8 @@ const ButterflyAnimation = {
     // Generate butterflies immediately
     const container = loadingOverlay.querySelector('#butterflyContainer');
     if (container) {
-      this.generateButterflySwarm(container, 1050);
+      this.generateButterflySwarm(container, 120);
+      this.playSfx();
       console.log('Generated 1050 butterflies');
     } else {
       console.error('Butterfly container not found!');
@@ -139,12 +166,8 @@ const ButterflyAnimation = {
 (function() {
   const loadingOverlay = document.getElementById('loading-curtains');
   if (loadingOverlay) {
-    // Remove the initial HTML overlay
-    loadingOverlay.remove();
-    console.log('Removed initial HTML overlay');
-    
-    // Run the same animation as retrigger
-    ButterflyAnimation.runCompleteAnimation();
+    // Rerun the animation on the existing overlay
+    ButterflyAnimation.runAnimationOn(loadingOverlay);
   }
 })();
 
@@ -583,7 +606,3 @@ window.ButterflyAnimation = ButterflyAnimation;
     }
   });
 })();
-
-
-/** Expose a helper for testing/uniform entrypoint */
-window.playIntro = () => ButterflyAnimation.runCompleteAnimation();
