@@ -606,3 +606,47 @@ window.ButterflyAnimation = ButterflyAnimation;
     }
   });
 })();
+
+
+// --- Intro animation: ensure it runs on initial load and on retrigger ---
+function initIntroAnimation(){
+  try{
+    const overlay = document.getElementById('loading-curtains');
+    if(!overlay) return;
+
+    // If an animation runner exists, use it; else fallback to simple fade-out
+    const run = (window.ButterflyAnimation && (ButterflyAnimation.runAnimationOn || ButterflyflyAnimation.runCompleteAnimation || ButterflyAnimation.run)) || null;
+    const playSound = () => {
+      try{
+        const audio = new Audio('./sounds/bling.mp3');
+        audio.volume = 0.7;
+        audio.play().catch(()=>{});
+      }catch(e){}
+    };
+
+    if(run){
+      // Prefer runAnimationOn(existingOverlay)
+      if (ButterflyAnimation.runAnimationOn) {
+        playSound();
+        ButterflyAnimation.runAnimationOn(overlay);
+      } else if (ButterflyAnimation.runCompleteAnimation) {
+        playSound();
+        ButterflyAnimation.runCompleteAnimation();
+      } else {
+        playSound();
+        ButterflyAnimation.run();
+      }
+    }else{
+      // Fallback: show then fade out overlay
+      overlay.style.opacity = '1';
+      setTimeout(()=>{
+        overlay.style.transition = 'opacity 800ms ease';
+        overlay.style.opacity = '0';
+        setTimeout(()=> overlay.style.display = 'none', 850);
+      }, 600);
+    }
+  }catch(e){ console.warn('Intro animation init error', e); }
+}
+
+// Run on window load so images/fonts are ready
+window.addEventListener('load', initIntroAnimation);
