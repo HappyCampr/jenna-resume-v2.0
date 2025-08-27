@@ -1,14 +1,11 @@
 /* Basic reset & theme - Color-blind friendly palette */
 :root {
-  /* Brand gradient variables */
-  --brand-gradient-90: linear-gradient(90deg, var(--accent), var(--secondary), var(--tertiary));
-  --brand-gradient-180: linear-gradient(180deg, var(--accent), var(--tertiary));
   --bg: #0a1520;
   --panel: #1a2632;
   --text: #e8f0ff; /* Lighter version of #d9e4ff for better contrast */
   --muted: #a8c5d1; /* Better contrast than previous --muted */
-  --accent: #90d8b2; /* Green - distinguishable for most color-blind types */ /* Green - distinguishable for most color-blind types */
-  --secondary: #fcc9b5; /* Orange/peach - good contrast */ /* Orange/peach - good contrast */
+  --accent: #90d8b2; /* Green - distinguishable for most color-blind types */
+  --secondary: #fcc9b5; /* Orange/peach - good contrast */
   --tertiary: #4db8d8; /* Lighter blue for better visibility */
   --primary-blue: #0073e6;
   --chip: #2a3642;
@@ -17,16 +14,13 @@
   --shadow: 0 10px 30px rgba(0,115,230,.15);
 }
 :root.light {
-  /* Light-mode gradient tuning for new palette */
-  --brand-gradient-90: linear-gradient(90deg, var(--tertiary), var(--secondary), var(--accent));
-  --brand-gradient-180: linear-gradient(180deg, var(--tertiary), var(--secondary), var(--accent));
   --bg: #ffffff;
   --panel: #f8fffe;
   --text: #043a91; /* Darker version of #054fb9 for better contrast */
   --muted: #2d5a7b; /* Higher contrast than before */
-  --accent: #5ba300; /* Green - distinguishable for most color-blind types */
-  --secondary: #b51963; /* Orange/peach - good contrast */
-  --tertiary: #0073e6; /* updated neutral tertiary */ /* Teal - good for color-blind users */
+  --accent: #0073e6; /* Blue - accessible */
+  --secondary: #d84315; /* Red-orange for distinction */
+  --tertiary: #00695c; /* Teal - good for color-blind users */
   --primary-blue: #0073e6;
   --chip: rgba(179, 199, 247, 0.2);
   --border: rgba(0, 115, 230, 0.3);
@@ -610,7 +604,7 @@ a { color: var(--accent); text-decoration: none; }
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--brand-gradient-90);
+  background: linear-gradient(90deg, var(--accent), var(--secondary), var(--tertiary));
 }
 
 .team-superpowers h3 {
@@ -731,7 +725,7 @@ a { color: var(--accent); text-decoration: none; }
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--brand-gradient-90);
+  background: linear-gradient(90deg, var(--accent), var(--secondary), var(--tertiary));
 }
 .card:not(.project-card):hover {
   transform: translateY(-4px);
@@ -776,7 +770,7 @@ a { color: var(--accent); text-decoration: none; }
   left: 0;
   right: 0;
   height: 3px;
-  background: var(--brand-gradient-90);
+  background: linear-gradient(90deg, var(--accent), var(--secondary), var(--tertiary));
 }
 
 .project-image {
@@ -830,7 +824,7 @@ a { color: var(--accent); text-decoration: none; }
 
 .project-description li::before {
   content: '●';
-  background: var(--brand-gradient-90);
+  background: linear-gradient(90deg, var(--accent), var(--secondary), var(--tertiary));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -888,7 +882,7 @@ a { color: var(--accent); text-decoration: none; }
   top: 0;
   bottom: 0;
   width: 4px;
-  background: var(--brand-gradient-180);
+  background: linear-gradient(180deg, var(--accent), var(--tertiary));
   border-radius: 0 var(--radius) var(--radius) 0;
 }
 .item:hover {
@@ -910,64 +904,7 @@ a { color: var(--accent); text-decoration: none; }
 
 /* Print-friendly */
 @media print {
-  :root {
-  /* Brand gradient variables */
-  --brand-gradient-90: linear-gradient(90deg, var(--accent), var(--secondary), var(--tertiary));
-  --brand-gradient-180: linear-gradient(180deg, var(--accent), var(--tertiary)); --bg: #fff; --text: #000; --panel: #fff; --border: #ddd; --muted: #333; }
+  :root { --bg: #fff; --text: #000; --panel: #fff; --border: #ddd; --muted: #333; }
   .site-header, .site-footer, #themeToggle, #copyEmail, .btn { display: none !important; }
   .chip { border-color: #eee; }
-}
-
-
-/* JS Shine animation */
-.loading-logo.shine {
-  position: relative;
-  overflow: visible;
-}
-.loading-logo.shine::after {
-  content: '';
-  position: absolute;
-  top: -20%;
-  left: -150%;
-  width: 60%;
-  height: 140%;
-  transform: skewX(-25deg);
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0) 100%);
-  animation: logoShine 700ms ease-out forwards;
-  pointer-events: none;
-  filter: blur(1px);
-}
-
-@keyframes logoShine {
-  0%   { left: -150%; opacity: 0.0; }
-  5%   { opacity: 0.9; }
-  100% { left: 150%; opacity: 0; }
-}
-
-
-/* Light mode gradient accents updated */
-:root.light .section h2,
-:root.light .card::before,
-:root.light .team-superpowers::before,
-:root.light .project-details::before,
-:root.light .item::before {
-  border-color: var(--accent);
-  background: var(--brand-gradient-90);
-}
-
-
-/* Gradient button styling for Executive Dashboard link */
-.btn-gradient {
-  background: linear-gradient(90deg, #1e3a8a, #b51963, #5ba300);
-  color: #fff;
-  padding: 0.5rem 0.9rem;
-  border-radius: 12px;
-  font-weight: 600;
-  text-decoration: none;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.btn-gradient:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
 }
